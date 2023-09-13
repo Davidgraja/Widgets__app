@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:widget_app/domain/entities/menu/menu_items.dart';
+import 'package:widget_app/presentation/screen/buttons/buttons_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -9,6 +11,53 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Flutter + Material 3'),
       ),
+      body: _HomeView(),
+    );
+  }
+}
+
+
+class _HomeView extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListView.builder(
+      // physics:  BouncingScrollPhysics() ,
+      itemCount: appMenuItems.length,
+      itemBuilder: (context, index) {
+
+        final item = appMenuItems[index];
+
+        return _CustomListTile(item: item);
+    },);
+  }
+}
+
+
+class _CustomListTile extends StatelessWidget {
+  final MenuItem item;
+  const _CustomListTile({super.key, required this.item});
+
+  @override
+  Widget build(BuildContext context) {
+
+    final colors = Theme.of(context).colorScheme;
+
+    return  ListTile(
+      title: Text(item.title) ,
+      subtitle: Text(item.subTitle),
+      leading: Icon(item.icon , color: colors.primary),
+      trailing: Icon(Icons.arrow_forward_ios_rounded , color: colors.primary,),
+      onTap: (){
+        // Todo : navegar a otras pantallas
+       /* Navigator.of(context).push(
+          MaterialPageRoute(
+              builder: (contex) =>  const ButtonsScreen()
+          )
+        );*/
+
+        Navigator.pushNamed(context, item.link);
+      },
+      splashColor: colors.inversePrimary,
     );
   }
 }
