@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:widget_app/domain/entities/menu/menu_items.dart';
 import 'package:widget_app/presentation/screen/buttons/buttons_screen.dart';
 
@@ -48,14 +49,8 @@ class _CustomListTile extends StatelessWidget {
       leading: Icon(item.icon , color: colors.primary),
       trailing: Icon(Icons.arrow_forward_ios_rounded , color: colors.primary,),
       onTap: (){
-        // Todo : navegar a otras pantallas
-       /* Navigator.of(context).push(
-          MaterialPageRoute(
-              builder: (contex) =>  const ButtonsScreen()
-          )
-        );*/
-
-        Navigator.pushNamed(context, item.link);
+        // Navegación a otras pantallas con GoRouter
+        context.push(item.link);
       },
       splashColor: colors.inversePrimary,
     );
