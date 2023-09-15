@@ -125,7 +125,9 @@ class _ButtonsView extends StatelessWidget {
 
             const _CustomHeading(title: 'Custom Button'),
 
-            const CustomButton(),           
+            const CustomButton(), 
+            const CustomButton2(),      
+            const CustomButton3(),    
           ],
         ),
       ]),
@@ -192,11 +194,10 @@ class CustomButton extends StatelessWidget {
             )
           ),
           child: InkWell(
-            // overlayColor: MaterialStatePropertyAll(colors.inversePrimary),
             onTap: () {},
             child: const Padding(
               padding: EdgeInsets.symmetric(vertical: 10 , horizontal: 20),
-              child: Text('Custom Button' , style: TextStyle(color: Colors.white),),
+              child: Text('Button 1' , style: TextStyle(color: Colors.white),),
             ),
           ),
         ),
@@ -205,3 +206,56 @@ class CustomButton extends StatelessWidget {
       
   }
 } 
+
+
+
+class CustomButton2 extends StatelessWidget {
+  const CustomButton2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+
+    return Material(
+      elevation: 8,
+      surfaceTintColor: colors.primary ,
+      borderRadius: const BorderRadius.horizontal(left: Radius.circular(16)),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(25),
+        onTap: (){},
+        child: const Padding(
+          padding: EdgeInsets.symmetric(vertical: 10 , horizontal: 20),
+          child: Text('Button 2'),
+        )
+      ),
+    );
+  }
+}
+
+
+class CustomButton3 extends StatelessWidget {
+  const CustomButton3({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ClipRRect(
+      borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16) ),
+      child: Material(
+        color: Colors.black,
+        child:  DecoratedBox(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(colors: [Colors.transparent , Colors.blueAccent.shade400] , stops: const [0.0, 1.0])
+          ),
+          child: InkWell(
+            onTap: (){},
+            overlayColor:  const MaterialStatePropertyAll(Colors.redAccent),
+            child: const Padding(
+              padding:EdgeInsets.all(12),
+              child: Text('Button 3', style: TextStyle(color: Colors.white),) ,
+            ),
+          ),
+        ),
+      )
+    );
+  }
+}
