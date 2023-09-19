@@ -6,8 +6,8 @@ const  colorList = <Color>[
   Colors.tealAccent,
   Colors.red,
   Colors.greenAccent,
-  const Color.fromRGBO(215, 189, 226, 0.0),
-  const Color(0xEEFDD0B7)
+  Color.fromRGBO(215, 189, 226, 0.0),
+  Color(0xEEFDD0B7)
 ];
 
 class AppTheme {

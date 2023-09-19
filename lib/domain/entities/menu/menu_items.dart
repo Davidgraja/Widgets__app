@@ -38,6 +38,13 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
+      title: 'Snackbars',
+      subTitle: 'Snackbars y diálogos',
+      link: '/snackbars',
+      icon: Icons.add_alert_outlined
+  ),
+
+  MenuItem(
     title: 'App Bar',
     subTitle: 'Una Barra de aplicaciones',
     link: '/appbar',
