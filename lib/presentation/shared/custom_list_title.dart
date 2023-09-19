@@ -22,7 +22,6 @@ class CustomListTile extends StatelessWidget {
 
         // context.pushNamed(CardsScreen.name);  Ruta por nombre
       },
-      splashColor: colors.inversePrimary,
     );
   }
 }
