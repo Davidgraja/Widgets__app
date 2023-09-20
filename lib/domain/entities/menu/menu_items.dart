@@ -60,6 +60,13 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
+      title: 'Introducción a la aplicación ',
+      subTitle: 'Tutorial introductorio',
+      link: '/tutorial',
+      icon: Icons.accessible_rounded
+  ),
+
+  MenuItem(
     title: 'App Bar',
     subTitle: 'Una Barra de aplicaciones',
     link: '/appbar',
