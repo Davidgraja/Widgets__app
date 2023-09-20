@@ -45,6 +45,13 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
+      title: 'Animated container',
+      subTitle: 'Stateful widgets animado',
+      link: '/animated',
+      icon: Icons.check_box_outline_blank_rounded
+  ),
+
+  MenuItem(
     title: 'App Bar',
     subTitle: 'Una Barra de aplicaciones',
     link: '/appbar',
