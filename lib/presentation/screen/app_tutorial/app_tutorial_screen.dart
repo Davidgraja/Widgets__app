@@ -18,39 +18,114 @@ final slides = <SlideInfo>[
 ];
 
 
-class AppTutorialScreen extends StatefulWidget {
+class AppTutorialScreen extends StatelessWidget {
 
   static const name = 'tutorial_screen';
   const AppTutorialScreen({super.key});
-
-  @override
-  State<AppTutorialScreen> createState() => _AppTutorialScreenState();
-}
-
-class _AppTutorialScreenState extends State<AppTutorialScreen> {
-
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       body:LayoutBuilder(
-        builder: (context, constraints) => constraints.maxWidth > 360 ? const _SlideHorizontalLayout() : const  _SlideVerticalLayout() 
+        builder: (context, constraints) {
+          if(constraints.maxWidth > 360 ){
+            return _SlidesLayout(slides.map((e) => _SlideHorizontal(e)).toList());
+          }
+          else{
+            return _SlidesLayout(slides.map((e) => _SlideVertical(e)).toList());
+          }
+        } 
       )
     );
   }
 }
 
+class _SlideHorizontal extends StatelessWidget {
 
-class _SlideHorizontalLayout extends StatefulWidget {
-  const _SlideHorizontalLayout();
+  final  SlideInfo slide;
+
+  const _SlideHorizontal(this.slide);
 
   @override
-  State<_SlideHorizontalLayout> createState() => _SlideHorizontalLayoutState();
+  Widget build(BuildContext context) {
+    // Acceder a estilos de texto del tema general
+    final titleStyle = Theme.of(context).textTheme.titleLarge;
+    final captionStyle = Theme.of(context).textTheme.bodySmall;
+    final size = MediaQuery.of(context).size;
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 30),
+      child: Center(
+        child: Row(
+          children: [
+            // Image(image: AssetImage(imageUrl)),
+            Container( constraints: BoxConstraints(maxWidth:size.width * 0.5 ), child:Image.asset(slide.imageUrl ,fit: BoxFit.cover),),
+           
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(slide.title , style: titleStyle,),
+                const SizedBox(height: 10.0,),
+                SizedBox(
+                  width: size.width * 0.3,
+                  child: Text(slide.caption , style: captionStyle,),
+                )
+              ],
+            )
+          ],
+        ),
+      ),
+    );
+  }
 }
 
-class _SlideHorizontalLayoutState extends State<_SlideHorizontalLayout> {
 
+class _SlideVertical extends StatelessWidget {
+   final  SlideInfo slide;
+
+
+  const _SlideVertical(this.slide);
+
+  @override
+  Widget build(BuildContext context) {
+
+    // Acceder a estilos de texto del tema general
+    final titleStyle = Theme.of(context).textTheme.titleLarge;
+    final captionStyle = Theme.of(context).textTheme.bodySmall;
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 30),
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Image(image: AssetImage(imageUrl)),
+            Image.asset(slide.imageUrl),
+            const SizedBox(height: 20.0,),
+            Text(slide.title , style: titleStyle,),
+            const SizedBox(height: 10.0,),
+            Text(slide.caption , style: captionStyle,),
+          ],
+        ),
+      ) ,
+    );
+  }
+}
+
+class _SlidesLayout extends StatefulWidget {
+   final List<Widget>  slideChildren;
+  
+  const _SlidesLayout(this.slideChildren);
+
+  @override
+  State<_SlidesLayout> createState() => __SlidesLayoutState();
+}
+
+class __SlidesLayoutState extends State<_SlidesLayout> {
+ 
   final PageController pageController = PageController();
   bool endReached = false;
 
@@ -81,7 +156,7 @@ class _SlideHorizontalLayoutState extends State<_SlideHorizontalLayout> {
         PageView(
           controller: pageController,
           physics: const BouncingScrollPhysics(),
-          children: slides.map((slide) => _SlideHorizontal(title: slide.title, caption: slide.caption, imageUrl: slide.imageUrl) ).toList()   
+          children: widget.slideChildren,
         ),
         Positioned(
           top: 40,
@@ -107,162 +182,7 @@ class _SlideHorizontalLayoutState extends State<_SlideHorizontalLayout> {
             ),
           )
         ) :  const SizedBox()
-        
       ],
-    );
-  }
-}
-
-
-class _SlideHorizontal extends StatelessWidget {
-
-  final String title;
-  final String caption;
-  final String imageUrl;
-
-  const _SlideHorizontal({required this.title, required this.caption, required this.imageUrl});
-
-  @override
-  Widget build(BuildContext context) {
-
-    // Acceder a estilos de texto del tema general
-    final titleStyle = Theme.of(context).textTheme.titleLarge;
-    final captionStyle = Theme.of(context).textTheme.bodySmall;
-    final size = MediaQuery.of(context).size;
-
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 30),
-      child: Center(
-        child: Row(
-          children: [
-            // Image(image: AssetImage(imageUrl)),
-            Container( constraints: BoxConstraints(maxWidth:size.width * 0.5 ), child:Image.asset(imageUrl ,fit: BoxFit.cover),),
-           
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(title , style: titleStyle,),
-                const SizedBox(height: 10.0,),
-                SizedBox(
-                  width: size.width * 0.3,
-                  child: Text(caption , style: captionStyle,),
-                )
-              ],
-            )
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-
-class _SlideVerticalLayout extends StatefulWidget {
-  const _SlideVerticalLayout();
-
-  @override
-  State<_SlideVerticalLayout> createState() => _SlideVerticalLayoutState();
-}
-
-class _SlideVerticalLayoutState extends State<_SlideVerticalLayout> {
-
-  
-  final PageController pageController = PageController();
-  bool endReached = false;
-
-  @override
-  void initState() {
-    super.initState();
-    pageController.addListener(() {
-      final page = pageController.page ?? 0;
-
-      if(page >= (slides.length - 1.5)){
-        setState(() {
-          endReached = true;
-        });
-      }
-    });
-  }
-
-  @override
-  void dispose() {
-    pageController.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Stack(
-    children: [
-        PageView(
-          controller:  pageController,
-          physics: const BouncingScrollPhysics(),
-          children: slides.map((slideData) => _SlideVertical(title: slideData.title, caption: slideData.caption, imageUrl: slideData.imageUrl)).toList(),
-        ),
-
-        Positioned(
-          top: 40.0,
-          right: 20.0,
-          child: TextButton(
-            onPressed: (){
-              context.pop();
-            },
-            child: const Text('Salir'),
-          )
-        ),
-
-        endReached ?  
-        Positioned(
-          bottom: 30.0,
-          right: 20.0,
-          child: FadeInRight(
-            from: 15,
-            delay: const Duration(seconds: 1),
-            child: FilledButton(
-              onPressed: () => context.pop(),
-              child: const Text('Comenzar'),
-            ),
-          )
-        )
-        : const SizedBox()
-      ],
-    ); 
-  }
-}
-
-
-class _SlideVertical extends StatelessWidget {
-
-  final String title;
-  final String caption;
-  final String imageUrl;
-
-  const _SlideVertical({required this.title, required this.caption, required this.imageUrl});
-
-  @override
-  Widget build(BuildContext context) {
-
-    // Acceder a estilos de texto del tema general
-    final titleStyle = Theme.of(context).textTheme.titleLarge;
-    final captionStyle = Theme.of(context).textTheme.bodySmall;
-
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 30),
-      child: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // Image(image: AssetImage(imageUrl)),
-            Image.asset(imageUrl),
-            const SizedBox(height: 20.0,),
-            Text(title , style: titleStyle,),
-            const SizedBox(height: 10.0,),
-            Text(caption , style: captionStyle,),
-          ],
-        ),
-      ) ,
     );
   }
 }
