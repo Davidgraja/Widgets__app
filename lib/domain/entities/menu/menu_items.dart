@@ -79,6 +79,13 @@ const appMenuItems = <MenuItem> [
     link: '/tabbar',
     icon: Icons.table_chart
   ),
+
+  MenuItem(
+    title: 'Infinite Scroll',
+    subTitle: 'Una pantalla con scroll infinito',
+    link: '/infiniteScroll',
+    icon: Icons.line_weight_sharp
+  ),
 ];
 
 const appBarItems = <MenuItem>[
