@@ -29,7 +29,7 @@ class AppTutorialScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       body:LayoutBuilder(
         builder: (context, constraints) {
-          if(constraints.maxWidth > 360 ){
+          if(constraints.maxWidth > 480 ){
             return _SlidesLayout(slides.map((e) => _SlideHorizontal(e)).toList());
           }
           else{
