@@ -22,6 +22,13 @@ const appMenuItems = <MenuItem> [
         link: '/counter',
         icon: Icons.onetwothree_rounded
     ),
+
+    MenuItem(
+        title: 'Theme',
+        subTitle: 'Manejo del tema junto a Riverpod',
+        link: '/theme',
+        icon: Icons.color_lens_outlined
+    ),
     
     MenuItem(
         title: 'Botones',
