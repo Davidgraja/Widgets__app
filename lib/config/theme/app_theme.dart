@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 const  colorList = <Color>[
   Colors.blueAccent,
   Colors.tealAccent,
-  Colors.red,
+  Color.fromARGB(255, 250, 19, 2),
   Colors.greenAccent,
   Colors.pinkAccent,
   Color(0xEEFDD0B7)
@@ -30,4 +30,9 @@ class AppTheme {
       centerTitle: false
   )
   );
-}
+
+  AppTheme copyWith({int? selectedColor, bool? isDarkMode}) => AppTheme(
+    selectedColor: selectedColor  ?? this.selectedColor,
+    isDarkMode: isDarkMode ?? this.isDarkMode 
+    );
+  }
