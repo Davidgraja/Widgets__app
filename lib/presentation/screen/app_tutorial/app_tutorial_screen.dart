@@ -26,7 +26,7 @@ class AppTutorialScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Theme.of(context).colorScheme.background,
       body:LayoutBuilder(
         builder: (context, constraints) {
           if(constraints.maxWidth > 480 ){
