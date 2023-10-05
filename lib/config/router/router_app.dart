@@ -147,5 +147,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const FirstStackScreen(),
     ),
 
+    GoRoute(
+      path: '/stack/two',
+      name: SecondStackScreen.name,
+      builder: (context, state) => const SecondStackScreen(),
+    ),
+
   ],
 );

@@ -50,7 +50,7 @@ class FirstStackScreen extends StatelessWidget {
               ),
       
               const Text(
-                  'Todos los hijos del Stack se alinearan con el border superior de acuerdo a la dirección del texto como se ve en el ejemplo anterior , pero podemos cambiar este conportamiento con su propiedad aligment junto las clases Alignment o AlignmentDirectional '),
+                  'Todos los hijos del Stack se alinearan con el border superior de acuerdo a la dirección del texto como se ve en el ejemplo anterior , pero podemos cambiar este conportamiento con su propiedad alignment junto las clases Alignment o AlignmentDirectional '),
               
               const SizedBox(
                 height: 10,
@@ -118,7 +118,7 @@ class FirstStackScreen extends StatelessWidget {
                           ]
                         )
                       ),
-                      child: Text('Texto de primer plano' , style: TextStyle(color:Colors.white  , fontSize: 20.0),),
+                      child: const Text('Texto de primer plano' , style: TextStyle(color:Colors.white  , fontSize: 20.0),),
                     )
 
                   ],
@@ -126,6 +126,46 @@ class FirstStackScreen extends StatelessWidget {
               ),
 
 
+              const SizedBox(
+                height: 10,
+              ),
+      
+              
+              const Text('Tambien es posible empujar un widget hijo fuera del stack , podemos definir su comportamiento con su propiedad  clipBehavior junto a la clases  Clip podemos definir si se hace un recorte del widget o no '),
+             
+              const SizedBox(
+                height: 10,
+              ),
+              
+              Stack(
+                clipBehavior: Clip.none,
+                children: [
+                  Container(
+                    alignment: Alignment.topCenter,
+                    decoration: BoxDecoration(
+                      color: Colors.grey,
+                      borderRadius: BorderRadius.circular(16)
+                    ),
+                    width: 150,
+                    height: 150,
+                    child: const Text('Clip.none'),
+                  ),
+
+                  Positioned(
+                    left: -20,
+                    bottom: -20,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(16),
+                      child: Container(
+                        width: 100,
+                        height: 100,
+                        color: Colors.blue,
+                      ),
+                    ),
+                  )
+                ],
+          
+              ),
 
               const SizedBox(height: 50,)
 

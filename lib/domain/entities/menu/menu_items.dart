@@ -172,15 +172,15 @@ const stackBarItems = <MenuItem>[
     link:'/stack/one',
     icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
-/* 
+
   MenuItem(
-    title: 'TabBar two',
-    subTitle: 'TabBar nested',
-    link:'/tabbar/two',
+    title: 'Stack two',
+    subTitle: 'Ejemplo practico de como podemos usar un stack',
+    link:'/stack/two',
     icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
 
-  MenuItem(
+ /*  MenuItem(
     title: 'TabBar three',
     subTitle: 'TabBar controlled with a controller',
     link:'/tabbar/three',
