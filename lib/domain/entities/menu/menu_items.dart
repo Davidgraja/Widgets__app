@@ -100,6 +100,15 @@ const appMenuItems = <MenuItem> [
     link: '/infiniteScroll',
     icon: Icons.line_weight_sharp
   ),
+
+  MenuItem(
+    title: 'Stack',
+    subTitle: 'Widget que permite superponer varios elementos segundarios',
+    link: '/stack',
+    icon: Icons.stacked_bar_chart_outlined
+  ),
+  
+
 ];
 
 const appBarItems = <MenuItem>[
@@ -154,4 +163,27 @@ const tabBarItems = <MenuItem>[
     link:'/tabbar/three',
     icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
+];
+
+const stackBarItems = <MenuItem>[
+  MenuItem(
+    title: 'Stack one',
+    subTitle: 'first example',
+    link:'/stack/one',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+/* 
+  MenuItem(
+    title: 'TabBar two',
+    subTitle: 'TabBar nested',
+    link:'/tabbar/two',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+    title: 'TabBar three',
+    subTitle: 'TabBar controlled with a controller',
+    link:'/tabbar/three',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ), */
 ];

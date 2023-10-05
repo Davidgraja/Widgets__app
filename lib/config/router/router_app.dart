@@ -2,6 +2,7 @@ import 'package:go_router/go_router.dart';
 
 import 'package:widget_app/presentation/screen/app_bar/screens/screens.dart';
 import 'package:widget_app/presentation/screen/screen.dart';
+import 'package:widget_app/presentation/screen/stack/screens/stacks.dart';
 import 'package:widget_app/presentation/screen/tab_bar/screens/screens.dart';
 
 // GoRouter configuration
@@ -131,5 +132,20 @@ final appRouter = GoRouter(
       name: ThirdTabBarScreen.name,
       builder: (context, state) => const ThirdTabBarScreen(),
     ),
+
+    //? Stack Routes
+    
+    GoRoute(
+      path: '/stack',
+      name: StackScreen.name,
+      builder: (context, state) => const StackScreen(),
+    ),
+
+    GoRoute(
+      path: '/stack/one',
+      name: FirstStackScreen.name,
+      builder: (context, state) => const FirstStackScreen(),
+    ),
+
   ],
 );
