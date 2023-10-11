@@ -139,19 +139,27 @@ final appRouter = GoRouter(
       path: '/stack',
       name: StackScreen.name,
       builder: (context, state) => const StackScreen(),
+      routes: [
+        GoRoute(
+          path: 'one',
+          name: FirstStackScreen.name,
+          builder: (context, state) => const FirstStackScreen(),
+        ),
+
+        GoRoute(
+          path: 'two',
+          name: SecondStackScreen.name,
+          builder: (context, state) => const SecondStackScreen(),
+        ),
+      ]
     ),
 
     GoRoute(
-      path: '/stack/one',
-      name: FirstStackScreen.name,
-      builder: (context, state) => const FirstStackScreen(),
+      path: '/customScrollView',
+      name: ScrollViewSlivers.name,
+      builder: (context, state) => const ScrollViewSlivers(),
     ),
 
-    GoRoute(
-      path: '/stack/two',
-      name: SecondStackScreen.name,
-      builder: (context, state) => const SecondStackScreen(),
-    ),
 
   ],
 );

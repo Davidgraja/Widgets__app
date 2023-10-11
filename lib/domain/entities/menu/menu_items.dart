@@ -107,6 +107,13 @@ const appMenuItems = <MenuItem> [
     link: '/stack',
     icon: Icons.stacked_bar_chart_outlined
   ),
+
+  MenuItem(
+    title: 'Custom scroll view',
+    subTitle: 'Un scroll view que crea efectos de desplazamiento perzonalizados utilizando sliver o fragmentos ',
+    link: '/customScrollView',
+    icon: Icons.line_weight_sharp
+  ),
   
 
 ];
