@@ -158,6 +158,20 @@ final appRouter = GoRouter(
       path: '/customScrollView',
       name: ScrollViewSlivers.name,
       builder: (context, state) => const ScrollViewSlivers(),
+      routes: [
+        GoRoute(
+          path: 'appbar-list',
+          name: SliverAppbarAndList.name,
+          builder: (context, state) => const SliverAppbarAndList(),
+        ),
+
+        GoRoute(
+          path: 'grid',
+          name: CustomSliverGrid.name,
+          builder: (context, state) => const CustomSliverGrid(),
+        ),
+      ]
+      
     ),
 
 

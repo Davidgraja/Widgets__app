@@ -187,10 +187,22 @@ const stackBarItems = <MenuItem>[
     icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
 
- /*  MenuItem(
-    title: 'TabBar three',
-    subTitle: 'TabBar controlled with a controller',
-    link:'/tabbar/three',
-    icon: Icons.do_not_disturb_on_total_silence_rounded
-  ), */
 ];
+
+const customSliversItems = <MenuItem>[
+  MenuItem(
+    title: 'SliverAppBar y SliverList',
+    subTitle: 'first example',
+    link:'/customScrollView/appbar-list',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+    title: 'SliverGrid',
+    subTitle: 'Ejemplo practico de como podemos usar un stack',
+    link:'/customScrollView/grid',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+];
+

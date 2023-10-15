@@ -5,6 +5,8 @@ export 'package:widget_app/presentation/screen/app_tutorial/app_tutorial_screen.
 export 'package:widget_app/presentation/screen/buttons/buttons_screen.dart';
 export 'package:widget_app/presentation/screen/cards/cards_screen.dart';
 export 'package:widget_app/presentation/screen/counter/counter_screen.dart';
+export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_appbar_and_list.dart';
+export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_grid.dart';
 export 'package:widget_app/presentation/screen/customScrollView/scroll_view_slivers.dart';
 export 'package:widget_app/presentation/screen/home/home_screen.dart';
 export 'package:widget_app/presentation/screen/infinite_scroll/infinite_scroll_screem.dart';
