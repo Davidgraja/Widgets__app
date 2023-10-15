@@ -4,6 +4,8 @@ export 'package:widget_app/presentation/screen/app_bar/app_bar_screen.dart';
 export 'package:widget_app/presentation/screen/app_tutorial/app_tutorial_screen.dart';
 export 'package:widget_app/presentation/screen/buttons/buttons_screen.dart';
 export 'package:widget_app/presentation/screen/cards/cards_screen.dart';
+export 'package:widget_app/presentation/screen/chip/chips_screen.dart';
+export 'package:widget_app/presentation/screen/chip/screens/chips.dart';
 export 'package:widget_app/presentation/screen/counter/counter_screen.dart';
 export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_appbar_and_list.dart';
 export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_grid.dart';

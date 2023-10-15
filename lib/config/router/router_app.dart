@@ -174,6 +174,24 @@ final appRouter = GoRouter(
       
     ),
 
+    // ? Chips Routes
+    GoRoute(
+      path: '/chips',
+      name: ChipsScreen.name,
+      builder: (context, state) => const ChipsScreen(),
+      routes: [
+        GoRoute(
+          path: 'chip',
+          name: ChipBasicScreen.name,
+          builder: (context, state) => const ChipBasicScreen(),
+        ),
+        GoRoute(
+          path: 'input-chip',
+          name: InputChipScreen.name,
+          builder: (context, state) => const InputChipScreen(),
+        ),
+      ]
+    ),
 
   ],
 );

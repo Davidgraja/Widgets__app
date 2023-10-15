@@ -115,6 +115,12 @@ const appMenuItems = <MenuItem> [
     icon: Icons.line_weight_sharp
   ),
   
+  MenuItem(
+    title: 'Chips',
+    subTitle: 'elementos compactos que representan un atributo , texto , entidad o acción',
+    link: '/chips',
+    icon: Icons.swap_horizontal_circle_sharp
+  ),
 
 ];
 
@@ -206,3 +212,20 @@ const customSliversItems = <MenuItem>[
 
 ];
 
+
+const chipsItems = <MenuItem>[
+  MenuItem(
+    title: 'Chip',
+    subTitle: 'chip mas comun',
+    link:'/chips/chip',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+    title: 'Input chip',
+    subTitle: 'los input chip pueden ser selecionables , configurando propiedades como onSeleted , onDeleted , onPressed',
+    link:'/chips/input-chip',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+];
