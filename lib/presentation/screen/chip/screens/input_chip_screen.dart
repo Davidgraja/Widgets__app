@@ -44,6 +44,7 @@ class _InputChipScreenState extends State<InputChipScreen> {
                 onPressed: () {
                   setState(() {
                     inputs = [1, 2, 3];
+                    selectedIndex = null;
                   });
                 },
                 child: const Text('Reset'))

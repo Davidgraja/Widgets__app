@@ -228,4 +228,25 @@ const chipsItems = <MenuItem>[
     icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
 
+  MenuItem(
+    title: 'Choice chip',
+    subTitle: 'Los ChoicesChip representan una única elección de un conjunto',
+    link:'/chips/choice-chip',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+    title: 'Filter chip',
+    subTitle: 'Los FilterChip sonuna buena alternativa a los widgets Checkbox o switch ,A diferencia de estas alternativas, los chips de filtro permiten opciones claramente delineadas y expuestas en un área compacta. ',
+    link:'/chips/filter-chip',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+   MenuItem(
+    title: 'Action chip',
+    subTitle: 'los chips de acción son un conjunto de opciones que desencadenan una acción relacionada con el contenido principal. Los chips de acción deberían aparecer dinámica y contextualmente en una interfaz de usuario.',
+    link:'/chips/action-chip',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
 ];

@@ -185,10 +185,29 @@ final appRouter = GoRouter(
           name: ChipBasicScreen.name,
           builder: (context, state) => const ChipBasicScreen(),
         ),
+
         GoRoute(
           path: 'input-chip',
           name: InputChipScreen.name,
           builder: (context, state) => const InputChipScreen(),
+        ),
+
+        GoRoute(
+          path: 'choice-chip',
+          name: ChoiceChipScreen.name,
+          builder: (context, state) => const ChoiceChipScreen(),
+        ),
+
+        GoRoute(
+          path: 'filter-chip',
+          name: FilterChipScreen.name,
+          builder: (context, state) => const FilterChipScreen(),
+        ),
+
+        GoRoute(
+          path: 'action-chip',
+          name: ActionChipScreen.name,
+          builder: (context, state) => const ActionChipScreen(),
         ),
       ]
     ),
