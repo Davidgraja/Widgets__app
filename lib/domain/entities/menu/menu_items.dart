@@ -122,6 +122,13 @@ const appMenuItems = <MenuItem> [
     icon: Icons.swap_horizontal_circle_sharp
   ),
 
+  MenuItem(
+  title: 'Safe area',
+  subTitle: 'Un Widget que inserta a su hijo con su relleno para evitar intrusiones del sistema operativo',
+  link: '/safe_area',
+  icon: Icons.border_inner_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

@@ -212,5 +212,12 @@ final appRouter = GoRouter(
       ]
     ),
 
+
+
+    GoRoute(
+      path:'/safe_area',
+      name:SafeAreaScreen.name,
+      builder: (context, state) => const SafeAreaScreen(),
+    ),
   ],
 );
