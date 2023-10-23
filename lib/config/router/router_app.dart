@@ -76,65 +76,65 @@ final appRouter = GoRouter(
     ),
   
     //? AppBar Routes 
-
     GoRoute(
+
       path: '/appbar',
       name: AppBarScreen.name,
       builder: (context, state) => const AppBarScreen(),
-    ),
+      routes: [
+        GoRoute(
+          path: 'one',
+          name: FirstAppBarScreen.name,
+          builder: (context, state) => const FirstAppBarScreen(),
+        ),
 
-    GoRoute(
-      path: '/appbar/one',
-      name: FirstAppBarScreen.name,
-      builder: (context, state) => const FirstAppBarScreen(),
-    ),
+        GoRoute(
+          path: 'two',
+          name: SecondAppBarScreen.name,
+          builder: (context, state) => const SecondAppBarScreen(),
+        ),
 
-    GoRoute(
-      path: '/appbar/two',
-      name: SecondAppBarScreen.name,
-      builder: (context, state) => const SecondAppBarScreen(),
-    ),
+        GoRoute(
+          path: 'three',
+          name: ThirdAppBarScreen.name,
+          builder: (context, state) => const ThirdAppBarScreen(),
+        ),
 
-    GoRoute(
-      path: '/appbar/three',
-      name: ThirdAppBarScreen.name,
-      builder: (context, state) => const ThirdAppBarScreen(),
-    ),
-
-    GoRoute(
-      path: '/appbar/fourth',
-      name: FourthAppBarScreen.name,
-      builder: (context, state) => const FourthAppBarScreen(),
+        GoRoute(
+          path: 'fourth',
+          name: FourthAppBarScreen.name,
+          builder: (context, state) => const FourthAppBarScreen(),
+        ),
+      ]
     ),
 
     //? TabBar Routes
-
     GoRoute(
       path: '/tabbar',
       name: TabBarScreen.name,
       builder: (context, state) => const TabBarScreen(),
-    ),
+      routes: [
+        GoRoute(
+          path: 'one',
+          name: FirstTabBarScreen.name,
+          builder: (context, state) => const FirstTabBarScreen(),
+        ),
 
-    GoRoute(
-      path: '/tabbar/one',
-      name: FirstTabBarScreen.name,
-      builder: (context, state) => const FirstTabBarScreen(),
-    ),
+        GoRoute(
+          path: 'two',
+          name: SecondTabBarScreen.name,
+          builder: (context, state) => const SecondTabBarScreen(),
+        ),
 
-    GoRoute(
-      path: '/tabbar/two',
-      name: SecondTabBarScreen.name,
-      builder: (context, state) => const SecondTabBarScreen(),
-    ),
-
-    GoRoute(
-      path: '/tabbar/three',
-      name: ThirdTabBarScreen.name,
-      builder: (context, state) => const ThirdTabBarScreen(),
+        GoRoute(
+          path: 'three',
+          name: ThirdTabBarScreen.name,
+          builder: (context, state) => const ThirdTabBarScreen(),
+        ),
+      ]
     ),
 
     //? Stack Routes
-    
     GoRoute(
       path: '/stack',
       name: StackScreen.name,
@@ -212,12 +212,17 @@ final appRouter = GoRouter(
       ]
     ),
 
-
-
     GoRoute(
       path:'/safe_area',
       name:SafeAreaScreen.name,
       builder: (context, state) => const SafeAreaScreen(),
     ),
+
+    GoRoute(
+      path:'/expanded',
+      name:ExpandedScreen.name,
+      builder: (context, state) => const ExpandedScreen(),
+    ),
+
   ],
 );
