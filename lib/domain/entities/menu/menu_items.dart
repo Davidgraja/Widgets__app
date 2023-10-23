@@ -129,6 +129,13 @@ const appMenuItems = <MenuItem> [
   icon: Icons.border_inner_outlined
   ),
 
+  MenuItem(
+  title: 'Expanded',
+  subTitle: 'Un Widget que expanded un elemento secundario dentro de un row , column o flex , para que el elemento secundario tome o llene el espacio disponible',
+  link: '/expanded',
+  icon: Icons.settings_ethernet_rounded
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

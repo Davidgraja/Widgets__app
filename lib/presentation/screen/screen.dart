@@ -1,4 +1,5 @@
 
+export 'package:widget_app/presentation/screen/expanded/expanded_screen.dart';
 export 'package:widget_app/presentation/screen/animated/animated_screen.dart';
 export 'package:widget_app/presentation/screen/app_bar/app_bar_screen.dart';
 export 'package:widget_app/presentation/screen/app_tutorial/app_tutorial_screen.dart';

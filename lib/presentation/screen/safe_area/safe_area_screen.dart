@@ -6,9 +6,6 @@ class SafeAreaScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-    const  style =  TextStyle(fontSize: 22);
-
     return  Scaffold(
       body: SafeArea(
         child: ListView(
