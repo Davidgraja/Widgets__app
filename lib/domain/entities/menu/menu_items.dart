@@ -136,6 +136,13 @@ const appMenuItems = <MenuItem> [
   icon: Icons.settings_ethernet_rounded
   ),
 
+  MenuItem(
+  title: 'Wrap',
+  subTitle: 'Un Widget que  presenta cada uno de sus hijos  segun el eje principal , si no hay suficiente espacio para colocar todos los hijos en una fila o columna este creara un tramo adyacente para colocar allí a sus hijos',
+  link: '/wrap',
+  icon: Icons.wrap_text_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

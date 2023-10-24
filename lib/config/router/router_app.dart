@@ -224,5 +224,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const ExpandedScreen(),
     ),
 
+    GoRoute(
+      path: '/wrap',
+      name: WrapScreen.name,
+      builder: (context, state) => const WrapScreen(),
+    ),
+
   ],
 );
