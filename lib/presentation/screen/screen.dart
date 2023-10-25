@@ -13,6 +13,8 @@ export 'package:widget_app/presentation/screen/customScrollView/scroll_view_sliv
 export 'package:widget_app/presentation/screen/expanded/expanded_screen.dart';
 export 'package:widget_app/presentation/screen/home/home_screen.dart';
 export 'package:widget_app/presentation/screen/infinite_scroll/infinite_scroll_screem.dart';
+export 'package:widget_app/presentation/screen/opacity_and_animated/animated_opacity.dart';
+export 'package:widget_app/presentation/screen/opacity_and_animated/opacity_screen.dart';
 export 'package:widget_app/presentation/screen/progress/progress_screen.dart';
 export 'package:widget_app/presentation/screen/safe_area/safe_area_screen.dart';
 export 'package:widget_app/presentation/screen/snackbar/sbackbar_screen.dart';

@@ -143,6 +143,20 @@ const appMenuItems = <MenuItem> [
   icon: Icons.wrap_text_outlined
   ),
 
+  MenuItem(
+  title: 'Opacity',
+  subTitle: 'Un widget que hace que su hijo sea parcialmente transparente , Sus valores de opacidad van de 0.0 a 1.0',
+  link: '/opacity',
+  icon: Icons.opacity_outlined
+  ),
+
+  MenuItem(
+  title: 'Animated opacity',
+  subTitle: 'Un widget que utiliza una animación internamente para animar de manera eficiente la opacidad',
+  link: '/animated_opacity',
+  icon: Icons.opacity_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

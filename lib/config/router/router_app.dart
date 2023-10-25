@@ -230,5 +230,17 @@ final appRouter = GoRouter(
       builder: (context, state) => const WrapScreen(),
     ),
 
+    GoRoute(
+      path: '/opacity',
+      name: OpacityScreen.name,
+      builder: (context, state) => const OpacityScreen(),
+    ),
+
+    GoRoute(
+      path: '/animated_opacity',
+      name: AnimatedOpacityScreen.name,
+      builder: (context, state) => const AnimatedOpacityScreen(),
+    ),
+    
   ],
 );
