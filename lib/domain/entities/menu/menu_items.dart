@@ -157,6 +157,13 @@ const appMenuItems = <MenuItem> [
   icon: Icons.opacity_outlined
   ),
 
+  MenuItem(
+    title: 'Future builder',
+    subTitle: 'Un widget que se construye basandose en el ultimo resultado de un Future',
+    link: '/future_builder',
+    icon: Icons.cloud_circle
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

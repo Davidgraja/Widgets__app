@@ -241,6 +241,12 @@ final appRouter = GoRouter(
       name: AnimatedOpacityScreen.name,
       builder: (context, state) => const AnimatedOpacityScreen(),
     ),
+
+    GoRoute(
+      path: '/future_builder',
+      name: FutureBuilderScreen.name,
+      builder: (context, state) => const FutureBuilderScreen(),
+    ),
     
   ],
 );
