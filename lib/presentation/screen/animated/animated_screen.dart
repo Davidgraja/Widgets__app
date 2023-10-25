@@ -45,10 +45,10 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
 
       body: Center(
         child: AnimatedContainer(
-          duration: const Duration(milliseconds:300),
+          duration: const Duration(milliseconds:1200),
           width: width,
           height: heigth,
-          curve: Curves.decelerate,
+          curve: Curves.elasticOut,
           decoration: BoxDecoration(
             color: color,
             borderRadius: BorderRadius.circular(borderRadius)
