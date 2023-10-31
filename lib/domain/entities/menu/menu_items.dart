@@ -164,6 +164,13 @@ const appMenuItems = <MenuItem> [
     icon: Icons.cloud_circle
   ),
 
+  MenuItem(
+    title: 'Fade transition',
+    subTitle: 'Anima la opacidad de un widget',
+    link: '/fade_transition',
+    icon: Icons.fiber_smart_record_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

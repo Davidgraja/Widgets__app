@@ -247,6 +247,13 @@ final appRouter = GoRouter(
       name: FutureBuilderScreen.name,
       builder: (context, state) => const FutureBuilderScreen(),
     ),
+
+
+    GoRoute(
+      path: '/fade_transition',
+      name: FadeTransitionScreen.name,
+      builder: (context, state) => const FadeTransitionScreen(),
+    ),
     
   ],
 );
