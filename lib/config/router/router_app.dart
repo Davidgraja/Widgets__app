@@ -254,6 +254,12 @@ final appRouter = GoRouter(
       name: FadeTransitionScreen.name,
       builder: (context, state) => const FadeTransitionScreen(),
     ),
+
+    GoRoute(
+      path: '/floating_button',
+      name: FloatingActionButtonScreen.name,
+      builder: (context, state) => const FloatingActionButtonScreen(),
+    ),
     
   ],
 );

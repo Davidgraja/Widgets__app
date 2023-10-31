@@ -171,6 +171,13 @@ const appMenuItems = <MenuItem> [
     icon: Icons.fiber_smart_record_outlined
   ),
 
+  MenuItem(
+    title: 'Floating action button',
+    subTitle: 'Un botón de  accion flotante , Un botón de acción flotante es un botón de icono circular que se desplaza sobre el contenido para promover una acción principal en la aplicación.',
+    link: '/floating_button',
+    icon: Icons.radio_button_off_rounded
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
