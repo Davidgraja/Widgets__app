@@ -4,6 +4,7 @@ import 'package:widget_app/presentation/screen/app_bar/screens/screens.dart';
 import 'package:widget_app/presentation/screen/screen.dart';
 import 'package:widget_app/presentation/screen/stack/screens/stacks.dart';
 import 'package:widget_app/presentation/screen/tab_bar/screens/screens.dart';
+import 'package:widget_app/presentation/shared/page_view/page_view_shared.dart';
 
 // GoRouter configuration
 final appRouter = GoRouter(
@@ -260,6 +261,25 @@ final appRouter = GoRouter(
       name: FloatingActionButtonScreen.name,
       builder: (context, state) => const FloatingActionButtonScreen(),
     ),
-    
+
+    // ? PageView Routes
+    GoRoute(
+      path: '/page_view',
+      name: PageViewScreen.name,
+      builder: (context, state) => const PageViewScreen(),
+      routes: [
+        GoRoute(
+          path: 'one',
+          name: PageViewOneScreen.name,
+          builder: (context, state) => const PageViewOneScreen(),
+        ),
+
+        GoRoute(
+          path: 'two',
+          name: PageViewTwoScreen.name,
+          builder: (context, state) => PageViewTwoScreen(children: cardList),
+        ),
+      ]
+    ),
   ],
 );

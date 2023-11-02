@@ -178,6 +178,14 @@ const appMenuItems = <MenuItem> [
     icon: Icons.radio_button_off_rounded
   ),
 
+  MenuItem(
+      title: 'Page view',
+      subTitle: 'Widget que proporciona una lista desplazable que funciona pagina por pagina',
+      link: '/page_view',
+      icon: Icons.pages
+  ),
+
+
 ];
 
 const appBarItems = <MenuItem>[
@@ -268,7 +276,6 @@ const customSliversItems = <MenuItem>[
 
 ];
 
-
 const chipsItems = <MenuItem>[
   MenuItem(
     title: 'Chip',
@@ -303,6 +310,24 @@ const chipsItems = <MenuItem>[
     subTitle: 'los chips de acción son un conjunto de opciones que desencadenan una acción relacionada con el contenido principal. Los chips de acción deberían aparecer dinámica y contextualmente en una interfaz de usuario.',
     link:'/chips/action-chip',
     icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+];
+
+const pageViewsitems = <MenuItem>[
+
+  MenuItem(
+      title: 'Page view one',
+      subTitle: 'Page view a pantalla completa',
+      link:'/page_view/one',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+      title: 'Page view two',
+      subTitle: ' Page view en cards',
+      link:'/page_view/two',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
 
 ];
