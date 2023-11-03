@@ -185,6 +185,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.pages
   ),
 
+  MenuItem(
+      title: 'Table',
+      subTitle: 'un widget que utiliza el algoritmo de diseño de tabla para sus hijos',
+      link: '/table',
+      icon: Icons.grid_on_rounded
+  ),
+
 
 ];
 

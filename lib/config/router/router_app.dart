@@ -281,5 +281,12 @@ final appRouter = GoRouter(
         ),
       ]
     ),
+
+
+     GoRoute(
+          path: '/table',
+          name: TableScreen.name,
+          builder: (context, state) => const TableScreen(),
+      ),
   ],
 );

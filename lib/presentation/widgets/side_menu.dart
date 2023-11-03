@@ -38,7 +38,7 @@ class _SideMenuState extends State<SideMenu> {
       children: [
         Padding(
           padding: EdgeInsets.fromLTRB(20, hasNotch ? 5 : 10 , 0, 16),
-          child: const Text('Opciones Principales'),
+          child: const Text('Widgets Principales'),
         ),
 
         ...appMenuItems
@@ -52,7 +52,7 @@ class _SideMenuState extends State<SideMenu> {
 
         const Padding(
           padding: EdgeInsets.fromLTRB(20, 0, 0, 16),
-          child: Text('Mas Opciones'),
+          child: Text('Mas widgetes'),
         ),
 
         ...appMenuItems
