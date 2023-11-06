@@ -288,5 +288,12 @@ final appRouter = GoRouter(
           name: TableScreen.name,
           builder: (context, state) => const TableScreen(),
       ),
+
+
+     GoRoute(
+          path: '/fade_in_image',
+          name: FadeInImageScreen.name,
+          builder: (context, state) => const FadeInImageScreen(),
+      ), 
   ],
 );

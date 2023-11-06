@@ -59,7 +59,7 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
-      title: 'Animated container',
+      title: 'AnimatedContainer',
       subTitle: 'Stateful widgets animado',
       link: '/animated',
       icon: Icons.check_box_outline_blank_rounded
@@ -81,21 +81,21 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
-    title: 'App Bar',
+    title: 'AppBar',
     subTitle: 'Una Barra de aplicaciones',
     link: '/appbar',
     icon: Icons.app_shortcut_outlined
   ),
 
   MenuItem(
-    title: 'Tab Bar',
+    title: 'TabBar',
     subTitle: 'Una Barra de pestañas principal',
     link: '/tabbar',
     icon: Icons.table_chart
   ),
 
   MenuItem(
-    title: 'Infinite Scroll',
+    title: 'InfiniteScroll',
     subTitle: 'Una pantalla con scroll infinito',
     link: '/infiniteScroll',
     icon: Icons.line_weight_sharp
@@ -109,7 +109,7 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
-    title: 'Custom scroll view',
+    title: 'CustomScrollView',
     subTitle: 'Un scroll view que crea efectos de desplazamiento perzonalizados utilizando sliver o fragmentos ',
     link: '/customScrollView',
     icon: Icons.line_weight_sharp
@@ -123,7 +123,7 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
-  title: 'Safe area',
+  title: 'SafeArea',
   subTitle: 'Un Widget que inserta a su hijo con su relleno para evitar intrusiones del sistema operativo',
   link: '/safe_area',
   icon: Icons.border_inner_outlined
@@ -151,35 +151,35 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
-  title: 'Animated opacity',
+  title: 'AnimatedOpacity',
   subTitle: 'Un widget que utiliza una animación internamente para animar de manera eficiente la opacidad',
   link: '/animated_opacity',
   icon: Icons.opacity_outlined
   ),
 
   MenuItem(
-    title: 'Future builder',
+    title: 'FutureBuilder',
     subTitle: 'Un widget que se construye basandose en el ultimo resultado de un Future',
     link: '/future_builder',
     icon: Icons.cloud_circle
   ),
 
   MenuItem(
-    title: 'Fade transition',
+    title: 'FadeTransition',
     subTitle: 'Anima la opacidad de un widget',
     link: '/fade_transition',
     icon: Icons.fiber_smart_record_outlined
   ),
 
   MenuItem(
-    title: 'Floating action button',
+    title: 'FloatingActionButton',
     subTitle: 'Un botón de  accion flotante , Un botón de acción flotante es un botón de icono circular que se desplaza sobre el contenido para promover una acción principal en la aplicación.',
     link: '/floating_button',
     icon: Icons.radio_button_off_rounded
   ),
 
   MenuItem(
-      title: 'Page view',
+      title: 'PageView',
       subTitle: 'Widget que proporciona una lista desplazable que funciona pagina por pagina',
       link: '/page_view',
       icon: Icons.pages
@@ -191,6 +191,14 @@ const appMenuItems = <MenuItem> [
       link: '/table',
       icon: Icons.grid_on_rounded
   ),
+
+  MenuItem(
+      title: 'FadeinImage',
+      subTitle: 'un widget que muestra una imagen o placeholder mientras se carga una imagen traida desde internet , una vez cargada el placeholder se desvanecera',
+      link: '/fade_in_image',
+      icon: Icons.image
+  ),
+
 
 
 ];

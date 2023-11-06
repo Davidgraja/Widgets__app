@@ -11,6 +11,7 @@ export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_a
 export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_grid.dart';
 export 'package:widget_app/presentation/screen/customScrollView/scroll_view_slivers.dart';
 export 'package:widget_app/presentation/screen/expanded/expanded_screen.dart';
+export 'package:widget_app/presentation/screen/fade_in_image/fade_in_image_screen.dart';
 export 'package:widget_app/presentation/screen/fade_transition/fade_transition_screen.dart';
 export 'package:widget_app/presentation/screen/floating_action_button/floating_action_button_screen.dart';
 export 'package:widget_app/presentation/screen/future_builder/future_builder_screen.dart';
