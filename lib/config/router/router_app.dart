@@ -301,5 +301,12 @@ final appRouter = GoRouter(
       name: InheritedWidgetScreen.name,
       builder: (context, state) => const InheritedWidgetScreen(),
     ), 
+
+
+    GoRoute(
+      path: '/clips',
+      name: ClipRRectClipOvalClipPathScreen.name,
+      builder: (context, state) => const ClipRRectClipOvalClipPathScreen(),
+    ),
   ],
 );

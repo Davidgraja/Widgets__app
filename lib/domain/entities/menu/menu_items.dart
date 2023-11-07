@@ -212,6 +212,14 @@ const appMenuItems = <MenuItem> [
       link: '/inherited_widget',
       icon: Icons.widgets_rounded
   ),
+
+
+  MenuItem(
+      title: 'ClipRRect , ClipOval , ClipPath',
+      subTitle: 'Widgets que permiten dar recortes redondeados , ovalados y personalizados ',
+      link: '/clips',
+      icon: Icons.rounded_corner_rounded
+  ),
 ];
 
 const appBarItems = <MenuItem>[
