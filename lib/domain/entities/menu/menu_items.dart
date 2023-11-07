@@ -199,8 +199,12 @@ const appMenuItems = <MenuItem> [
       icon: Icons.image
   ),
 
-
-
+  MenuItem(
+      title: 'StreamBuilder',
+      subTitle: 'un widget que se construye a si mismo en función del ultimo flujo de datos añadido al stream',
+      link: '/stream_builder',
+      icon: Icons.stream_rounded
+    ),
 ];
 
 const appBarItems = <MenuItem>[

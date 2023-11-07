@@ -25,6 +25,7 @@ export 'package:widget_app/presentation/screen/progress/progress_screen.dart';
 export 'package:widget_app/presentation/screen/safe_area/safe_area_screen.dart';
 export 'package:widget_app/presentation/screen/snackbar/sbackbar_screen.dart';
 export 'package:widget_app/presentation/screen/stack/stack_screen.dart';
+export 'package:widget_app/presentation/screen/stream_builder/stream_builder_screen.dart';
 export 'package:widget_app/presentation/screen/tab_bar/tab_bar_screen.dart';
 export 'package:widget_app/presentation/screen/table/table_screen.dart';
 export 'package:widget_app/presentation/screen/ui_controls/theme_changer_screen.dart';
