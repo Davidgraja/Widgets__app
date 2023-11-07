@@ -204,7 +204,14 @@ const appMenuItems = <MenuItem> [
       subTitle: 'un widget que se construye a si mismo en función del ultimo flujo de datos añadido al stream',
       link: '/stream_builder',
       icon: Icons.stream_rounded
-    ),
+  ),
+
+  MenuItem(
+      title: 'InheritedWidget',
+      subTitle: 'Clase base para widgets que permite la propagación de información de manera eficiente por el arbol de widgets',
+      link: '/inherited_widget',
+      icon: Icons.widgets_rounded
+  ),
 ];
 
 const appBarItems = <MenuItem>[
