@@ -308,5 +308,24 @@ final appRouter = GoRouter(
       name: ClipRRectClipOvalClipPathScreen.name,
       builder: (context, state) => const ClipRRectClipOvalClipPathScreen(),
     ),
+
+    GoRoute(
+      path: '/hero',
+      name: HeroScreen.name,
+      builder: (context, state) => const HeroScreen(),
+      routes: [
+        GoRoute(
+          path: 'one',
+          name: HeroNormalScreen.name,
+          builder: (context, state) => const HeroNormalScreen(),
+        ),
+
+        GoRoute(
+          path: 'two',
+          name: HeroRectTween.name,
+          builder: (context, state) => const HeroRectTween(),
+        ),
+      ]
+    ),
   ],
 );

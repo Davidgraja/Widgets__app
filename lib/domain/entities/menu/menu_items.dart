@@ -220,6 +220,14 @@ const appMenuItems = <MenuItem> [
       link: '/clips',
       icon: Icons.rounded_corner_rounded
   ),
+
+  MenuItem(
+      title: 'Hero',
+      subTitle: 'Widget que permite  realizar  una animacion sobre otro widget al navegar hacia otra pantalla dentro de la aplicación donde se recomienda este el mismo widget de la pantalla anterior  ',
+      link: '/hero',
+      icon: Icons.rounded_corner_rounded
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
@@ -364,4 +372,20 @@ const pageViewsitems = <MenuItem>[
       icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
 
+];
+
+const heroItems = <MenuItem>[
+  MenuItem(
+      title: 'Hero normal',
+      subTitle: 'Uso basico de el widget hero',
+      link:'/hero/one',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+      title: 'Hero rect Tween',
+      subTitle: 'Ejemplo practico de animaciones de vuelo de hero utilizando la interpolación prederteminada y la interpolación recta personalizada',
+      link:'/hero/two',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
 ];

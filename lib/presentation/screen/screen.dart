@@ -1,4 +1,6 @@
-
+export 'package:widget_app/presentation/screen/hero/screens/hero_rect_tween.dart';
+export 'package:widget_app/presentation/screen/hero/screens/hero_normal_screen.dart';
+export 'package:widget_app/presentation/screen/hero/Hero_screen.dart';
 export 'package:widget_app/presentation/screen/animated/animated_screen.dart';
 export 'package:widget_app/presentation/screen/app_bar/app_bar_screen.dart';
 export 'package:widget_app/presentation/screen/app_tutorial/app_tutorial_screen.dart';
