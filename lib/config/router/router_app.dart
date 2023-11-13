@@ -327,5 +327,11 @@ final appRouter = GoRouter(
         ),
       ]
     ),
+
+    GoRoute(
+      path: '/custom_painter',
+      name: CustomPainterScreen.name,
+      builder: (context, state) => const CustomPainterScreen(),
+    ),
   ],
 );

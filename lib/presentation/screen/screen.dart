@@ -1,3 +1,4 @@
+export 'package:widget_app/presentation/screen/custom_painter/custom_painter_screen.dart';
 export 'package:widget_app/presentation/screen/hero/screens/hero_rect_tween.dart';
 export 'package:widget_app/presentation/screen/hero/screens/hero_normal_screen.dart';
 export 'package:widget_app/presentation/screen/hero/Hero_screen.dart';

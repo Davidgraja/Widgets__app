@@ -225,7 +225,14 @@ const appMenuItems = <MenuItem> [
       title: 'Hero',
       subTitle: 'Widget que permite  realizar  una animacion sobre otro widget al navegar hacia otra pantalla dentro de la aplicación donde se recomienda este el mismo widget de la pantalla anterior  ',
       link: '/hero',
-      icon: Icons.rounded_corner_rounded
+      icon: Icons.animation_rounded
+  ),
+
+  MenuItem(
+      title: 'CustomPainter',
+      subTitle: 'widget que proporciona un lienzo y usa un painter para ejecutar comandos de pintura',
+      link: '/custom_painter',
+      icon: Icons.format_paint_rounded
   ),
 
 ];
