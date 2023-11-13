@@ -339,5 +339,12 @@ final appRouter = GoRouter(
       name: CustomPainterScreen.name,
       builder: (context, state) => const CustomPainterScreen(),
     ),
+
+
+    GoRoute(
+      path: '/tooltip',
+      name: ToolTipScreen.name,
+      builder: (context, state) => const ToolTipScreen(),
+    ),
   ],
 );

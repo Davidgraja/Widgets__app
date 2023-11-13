@@ -235,6 +235,14 @@ const appMenuItems = <MenuItem> [
       icon: Icons.format_paint_rounded
   ),
 
+  MenuItem(
+      title: 'Tooltip',
+      subTitle: 'widget que permite dar información sobre otros widgets de la UI',
+      link: '/tooltip',
+      icon: Icons.tips_and_updates_outlined
+  ),
+
+
 ];
 
 const appBarItems = <MenuItem>[
