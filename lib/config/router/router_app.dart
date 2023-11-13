@@ -297,6 +297,12 @@ final appRouter = GoRouter(
     ),
 
     GoRoute(
+      path: '/stream_builder',
+      name: StreamBuilderScreen.name,
+      builder: (context, state) => const StreamBuilderScreen(),
+    ),
+
+    GoRoute(
       path: '/inherited_widget',
       name: InheritedWidgetScreen.name,
       builder: (context, state) => const InheritedWidgetScreen(),
