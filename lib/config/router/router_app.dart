@@ -347,10 +347,16 @@ final appRouter = GoRouter(
       builder: (context, state) => const ToolTipScreen(),
     ),
 
-     GoRoute(
+    GoRoute(
       path: '/fitted_box',
       name: FittedBoxScreen.name,
       builder: (context, state) => const FittedBoxScreen(),
+    ),
+
+    GoRoute(
+      path: '/layout_builder',
+      name: LayoutBuilderScreen.name,
+      builder: (context, state) => const LayoutBuilderScreen(),
     ),
   ],
 );

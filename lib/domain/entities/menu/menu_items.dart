@@ -249,6 +249,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.fit_screen_outlined
   ),
 
+  MenuItem(
+      title: 'LayoutBuilder',
+      subTitle: 'widget que permite saber el tamaño de la pantalla y segun el tamaño construye los widgets defenidos para  cada tamaño',
+      link: '/layout_builder',
+      icon: Icons.lan_rounded
+  ),
+
 
 ];
 

@@ -23,6 +23,7 @@ export 'package:widget_app/presentation/screen/hero/screens/hero_rect_tween.dart
 export 'package:widget_app/presentation/screen/home/home_screen.dart';
 export 'package:widget_app/presentation/screen/infinite_scroll/infinite_scroll_screem.dart';
 export 'package:widget_app/presentation/screen/inherited_widget_and_model/inherited_widget_screen.dart';
+export 'package:widget_app/presentation/screen/layout_builder/layout_builder_screen.dart';
 export 'package:widget_app/presentation/screen/opacity_and_animated/animated_opacity.dart';
 export 'package:widget_app/presentation/screen/opacity_and_animated/opacity_screen.dart';
 export 'package:widget_app/presentation/screen/page_view/page_view_screen.dart';
