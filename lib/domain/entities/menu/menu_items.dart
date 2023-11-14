@@ -242,6 +242,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.tips_and_updates_outlined
   ),
 
+  MenuItem(
+      title: 'FittedBox',
+      subTitle: 'widget que permite escalar y ajustar a su hijo segun su ajuste',
+      link: '/fitted_box',
+      icon: Icons.fit_screen_outlined
+  ),
+
 
 ];
 

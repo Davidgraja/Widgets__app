@@ -13,9 +13,10 @@ class ToolTipScreen extends StatelessWidget {
           children: [
             Tooltip(
               message: 'Flutter logo',
+              preferBelow: false,
               // richMessage:
               // height: 5,
-              margin: const EdgeInsets.only(top: 22),
+              margin: const EdgeInsets.only(bottom: 22),
               onTriggered: () => print('Event'),
               showDuration: const Duration(seconds: 2),
               // textAlign: TextAlign.start,

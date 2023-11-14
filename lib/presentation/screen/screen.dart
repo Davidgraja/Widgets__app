@@ -14,6 +14,7 @@ export 'package:widget_app/presentation/screen/customScrollView/scroll_view_sliv
 export 'package:widget_app/presentation/screen/expanded/expanded_screen.dart';
 export 'package:widget_app/presentation/screen/fade_in_image/fade_in_image_screen.dart';
 export 'package:widget_app/presentation/screen/fade_transition/fade_transition_screen.dart';
+export 'package:widget_app/presentation/screen/fittedBox/fitted_box_screen.dart';
 export 'package:widget_app/presentation/screen/floating_action_button/floating_action_button_screen.dart';
 export 'package:widget_app/presentation/screen/future_builder/future_builder_screen.dart';
 export 'package:widget_app/presentation/screen/hero/Hero_screen.dart';
