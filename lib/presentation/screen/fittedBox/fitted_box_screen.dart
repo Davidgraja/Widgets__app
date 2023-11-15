@@ -9,109 +9,87 @@ class FittedBoxScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: SingleChildScrollView(
-        child: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Column(
-              children: [
-                const Text('Con FittedBox podemos logar que un widget hijo se adapte al contenedor padre y lograr varios resultados , por ejemplo  tenemos un contenedor y una imagen  la caul tiene mayores dimensiones que el contendor:'),
-                const SizedBox(height: 10,),
-                const _CustomContainer(),
-                const SizedBox(height: 10,),
-                _CustomImage(),
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            children: [
+              const Text('Con FittedBox podemos logar que un widget hijo se adapte al contenedor padre y lograr varios resultados , por ejemplo  tenemos un contenedor y una imagen  la caul tiene mayores dimensiones que el contendor:'),
+              const SizedBox(height: 10,),
+              const _CustomContainer(),
+              const SizedBox(height: 10,),
+              _CustomImage(),
       
       
-                const SizedBox(height: 20,),
-                const Text('Por defecto la imagen o widget tratara de adaptarse al contenedor padre'),
-                const SizedBox(height: 10,),
-                _CustomContainer(child: _CustomImage(),),
+              const SizedBox(height: 20,),
+              const Text('Por defecto la imagen o widget tratara de adaptarse al contenedor padre'),
+              const SizedBox(height: 10,),
+              _CustomContainer(child: _CustomImage(),),
       
 
 
-                const SizedBox(height: 20,),
-                const Text('Puede que la adaptación por defecto no es lo que deseamos , es aqui donde entra el widget FittBox y haciendo uso de propiedad fit podemos definir como adaptar nuestra imagen '),
-                const SizedBox(height: 10,),
-                const _Title(text: 'por defecto toma  BoxFit.contain',),
-                const SizedBox(height: 10,),
+              const SizedBox(height: 20,),
+              const Text('Puede que la adaptación por defecto no es lo que deseamos , es aqui donde entra el widget FittBox y haciendo uso de propiedad fit podemos definir como adaptar nuestra imagen '),
+              const SizedBox(height: 10,),
+              const _Title(text: 'por defecto toma  BoxFit.contain',),
+              const SizedBox(height: 10,),
 
-                _CustomContainer(
-                  child: FittedBox(
-                    fit: BoxFit.contain,
-                    child: _CustomImage()
-                  ),
+              _CustomContainer(
+                child: FittedBox(
+                  fit: BoxFit.contain,
+                  child: _CustomImage()
                 ),
+              ),
 
 
 
-                const SizedBox(height: 20,),
-                const _Title(text: 'BoxFit.cover'),
-                const SizedBox(height: 10,),
+              const SizedBox(height: 20,),
+              const _Title(text: 'BoxFit.cover'),
+              const SizedBox(height: 10,),
 
-                _CustomContainer(
-                  child: FittedBox(
-                    fit: BoxFit.cover,
-                    child: _CustomImage()
-                  ),
+              _CustomContainer(
+                child: FittedBox(
+                  fit: BoxFit.cover,
+                  child: _CustomImage()
                 ),
+              ),
 
 
 
-                const SizedBox(height: 20,),
-                const _Title(text: 'BoxFit.fill' ),
-                const SizedBox(height: 10,),
+              const SizedBox(height: 20,),
+              const _Title(text: 'BoxFit.fill' ),
+              const SizedBox(height: 10,),
 
-                _CustomContainer(
-                  child: FittedBox(
-                    fit: BoxFit.fill,
-                    child: _CustomImage()
-                  ),
+              _CustomContainer(
+                child: FittedBox(
+                  fit: BoxFit.fill,
+                  child: _CustomImage()
                 ),
+              ),
 
 
-                const SizedBox(height: 20,),
-                const _Title(text: 'BoxFit.fitHeight'),
-                const SizedBox(height: 10,),
+              const SizedBox(height: 20,),
+              const _Title(text: 'BoxFit.fitHeight'),
+              const SizedBox(height: 10,),
 
-                _CustomContainer(
-                  child: FittedBox(
-                    fit: BoxFit.fitHeight,
-                    child: _CustomImage()
-                  ),
+              _CustomContainer(
+                child: FittedBox(
+                  fit: BoxFit.fitHeight,
+                  child: _CustomImage()
                 ),
+              ),
 
 
-                const SizedBox(height: 20,),
-                const _Title(text: 'BoxFit.fitWidth'),
-                const SizedBox(height: 10,),
+              const SizedBox(height: 20,),
+              const _Title(text: 'BoxFit.fitWidth'),
+              const SizedBox(height: 10,),
 
-                _CustomContainer(
-                  child: FittedBox(
-                    fit: BoxFit.fitWidth,
-                    child: _CustomImage()
-                  ),
+              _CustomContainer(
+                child: FittedBox(
+                  fit: BoxFit.fitWidth,
+                  child: _CustomImage()
                 ),
-
-
-                const SizedBox(height: 20,),
-                const _Title(text: 'BoxFit.none'),
-                const SizedBox(height: 10,),
-
-                const Text('BoxFit.none hara que no se aplique  ninguna adapatación'),
-
-
-
-                const SizedBox(height: 20,),
-                const _Title(text: 'BoxFit.scaleDown'),
-                const SizedBox(height: 10,),
-
-                _CustomContainer(
-                  child: FittedBox(
-                    fit: BoxFit.scaleDown,
-                    child: _CustomImage()
-                  ),
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       ),
@@ -130,16 +108,18 @@ class _Title extends StatelessWidget {
 }
 
 class _CustomContainer extends StatelessWidget {
+  final double? width; 
+  final double? height; 
   final Widget? child;
   const _CustomContainer({
-    this.child
+    this.child, this.width = 250, this.height = 200
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 250,
-      height: 200,
+      width: width,
+      height: height,
       color: Colors.red,
       child: child,
     );
