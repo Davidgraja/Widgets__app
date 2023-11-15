@@ -358,5 +358,11 @@ final appRouter = GoRouter(
       name: LayoutBuilderScreen.name,
       builder: (context, state) => const LayoutBuilderScreen(),
     ),
+
+    GoRoute(
+      path: '/absorb_pointer',
+      name: AbsorbPointerScreen.name,
+      builder: (context, state) => const AbsorbPointerScreen(),
+    ),
   ],
 );

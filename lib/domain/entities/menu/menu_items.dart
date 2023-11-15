@@ -256,6 +256,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.lan_rounded
   ),
 
+  MenuItem(
+      title: 'AbsorbPointer',
+      subTitle: 'widget que evita que sus hijos reciban eventos',
+      link: '/absorb_pointer',
+      icon: Icons.ads_click_rounded
+  ),
+
 
 ];
 
