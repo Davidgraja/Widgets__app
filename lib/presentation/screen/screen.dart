@@ -1,7 +1,10 @@
+
+export 'package:widget_app/presentation/screen/image_filtered/image_filtared_screen.dart';
 export 'package:widget_app/presentation/screen/absorb_pointer/absorb_pointer_screen.dart';
 export 'package:widget_app/presentation/screen/animated/animated_screen.dart';
 export 'package:widget_app/presentation/screen/app_bar/app_bar_screen.dart';
 export 'package:widget_app/presentation/screen/app_tutorial/app_tutorial_screen.dart';
+export 'package:widget_app/presentation/screen/backdrop_filter/backdrop_filter_screen.dart';
 export 'package:widget_app/presentation/screen/buttons/buttons_screen.dart';
 export 'package:widget_app/presentation/screen/cards/cards_screen.dart';
 export 'package:widget_app/presentation/screen/chip/chips_screen.dart';

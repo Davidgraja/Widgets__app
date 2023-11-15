@@ -263,6 +263,20 @@ const appMenuItems = <MenuItem> [
       icon: Icons.ads_click_rounded
   ),
 
+  MenuItem(
+      title: 'backdropFilter',
+      subTitle: 'widget que aplica un ImageFilter o filtro al contenido pintado existente y luego pinta el contenido segundario,l filtro se aplicará a toda el área dentro del clip de su widget principal o ancestro. Si no hay ningún clip, el filtro se aplicará a la pantalla completa ',
+      link: '/backdrop_filter',
+      icon: Icons.filter
+  ),
+
+  MenuItem(
+      title: 'ImageFiltered',
+      subTitle: 'widget que aplica un ImageFilter o filtro a su hijo',
+      link: '/image_filtered',
+      icon: Icons.filter
+  ),
+
 
 ];
 

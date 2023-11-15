@@ -364,5 +364,17 @@ final appRouter = GoRouter(
       name: AbsorbPointerScreen.name,
       builder: (context, state) => const AbsorbPointerScreen(),
     ),
+
+    GoRoute(
+      path: '/backdrop_filter',
+      name: BackdropFilterScreen.name,
+      builder: (context, state) => const BackdropFilterScreen(),
+    ),
+
+    GoRoute(
+      path: '/image_filtered',
+      name: ImageFilteredScreen.name,
+      builder: (context, state) => const ImageFilteredScreen(),
+    ),
   ],
 );
