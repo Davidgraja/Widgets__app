@@ -1,6 +1,7 @@
-
-export 'package:widget_app/presentation/screen/image_filtered/image_filtared_screen.dart';
+export 'package:widget_app/presentation/screen/align/screens/align_screen_two.dart';
 export 'package:widget_app/presentation/screen/absorb_pointer/absorb_pointer_screen.dart';
+export 'package:widget_app/presentation/screen/align/align_screen.dart';
+export 'package:widget_app/presentation/screen/align/screens/align_screen_one.dart';
 export 'package:widget_app/presentation/screen/animated/animated_screen.dart';
 export 'package:widget_app/presentation/screen/app_bar/app_bar_screen.dart';
 export 'package:widget_app/presentation/screen/app_tutorial/app_tutorial_screen.dart';
@@ -25,6 +26,7 @@ export 'package:widget_app/presentation/screen/hero/Hero_screen.dart';
 export 'package:widget_app/presentation/screen/hero/screens/hero_normal_screen.dart';
 export 'package:widget_app/presentation/screen/hero/screens/hero_rect_tween.dart';
 export 'package:widget_app/presentation/screen/home/home_screen.dart';
+export 'package:widget_app/presentation/screen/image_filtered/image_filtared_screen.dart';
 export 'package:widget_app/presentation/screen/infinite_scroll/infinite_scroll_screem.dart';
 export 'package:widget_app/presentation/screen/inherited_widget_and_model/inherited_widget_screen.dart';
 export 'package:widget_app/presentation/screen/layout_builder/layout_builder_screen.dart';

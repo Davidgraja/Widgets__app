@@ -376,5 +376,24 @@ final appRouter = GoRouter(
       name: ImageFilteredScreen.name,
       builder: (context, state) => const ImageFilteredScreen(),
     ),
+
+    GoRoute(
+      path: '/align',
+      name: AlignScreen.name,
+      builder: (context, state) => const AlignScreen(),
+      routes: [
+        GoRoute(
+          path: 'one',
+          name: AlingScreenOne.name,
+          builder: (context, state) => const AlingScreenOne(),
+        ),
+
+        GoRoute(
+          path: 'two',
+          name: AlignScreenTwo.name,
+          builder: (context, state) => const AlignScreenTwo(),
+        ),
+      ]
+    ),
   ],
 );

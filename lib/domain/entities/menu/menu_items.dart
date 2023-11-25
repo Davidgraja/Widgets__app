@@ -277,6 +277,12 @@ const appMenuItems = <MenuItem> [
       icon: Icons.filter
   ),
 
+  MenuItem(
+      title: 'Align',
+      subTitle: 'widget que alinea a su hijo dentro de si mismo  y opcionalmente se dimensiona segun el tamaño del hijo',
+      link: '/align',
+      icon: Icons.align_vertical_center_rounded
+  ),
 
 ];
 
@@ -436,6 +442,23 @@ const heroItems = <MenuItem>[
       title: 'Hero rect Tween',
       subTitle: 'Ejemplo practico de animaciones de vuelo de hero utilizando la interpolación prederteminada y la interpolación recta personalizada',
       link:'/hero/two',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+];
+
+
+const alignItems = <MenuItem>[
+  MenuItem(
+      title: 'Align con propiedades estaticas',
+      subTitle: 'Alineación con la clase Alignment y sus porpiedes estaticas ',
+      link:'/align/one',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+      title: 'Align con valores numericos',
+      subTitle: 'Alineación con valores numericos con la clase Alignment ',
+      link:'/align/two',
       icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
 ];
