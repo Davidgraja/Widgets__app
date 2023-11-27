@@ -395,5 +395,12 @@ final appRouter = GoRouter(
         ),
       ]
     ),
+
+
+     GoRoute(
+      path: '/dismissible',
+      name: DismissibleScreen.name,
+      builder: (context, state) => const DismissibleScreen(),
+    ),
   ],
 );

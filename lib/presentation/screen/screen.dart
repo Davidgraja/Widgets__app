@@ -1,7 +1,7 @@
-export 'package:widget_app/presentation/screen/align/screens/align_screen_two.dart';
 export 'package:widget_app/presentation/screen/absorb_pointer/absorb_pointer_screen.dart';
 export 'package:widget_app/presentation/screen/align/align_screen.dart';
 export 'package:widget_app/presentation/screen/align/screens/align_screen_one.dart';
+export 'package:widget_app/presentation/screen/align/screens/align_screen_two.dart';
 export 'package:widget_app/presentation/screen/animated/animated_screen.dart';
 export 'package:widget_app/presentation/screen/app_bar/app_bar_screen.dart';
 export 'package:widget_app/presentation/screen/app_tutorial/app_tutorial_screen.dart';
@@ -16,6 +16,7 @@ export 'package:widget_app/presentation/screen/custom_painter/custom_painter_scr
 export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_appbar_and_list.dart';
 export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_grid.dart';
 export 'package:widget_app/presentation/screen/customScrollView/scroll_view_slivers.dart';
+export 'package:widget_app/presentation/screen/dismissible/dismissible_screen.dart';
 export 'package:widget_app/presentation/screen/expanded/expanded_screen.dart';
 export 'package:widget_app/presentation/screen/fade_in_image/fade_in_image_screen.dart';
 export 'package:widget_app/presentation/screen/fade_transition/fade_transition_screen.dart';

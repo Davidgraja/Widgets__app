@@ -284,6 +284,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.align_vertical_center_rounded
   ),
 
+  MenuItem(
+      title: 'Dismissible',
+      subTitle: 'widget que puede descargar elementos hijos de la vista  arrastrando en la dirección correcta',
+      link: '/dismissible',
+      icon: Icons.sledding_rounded
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
