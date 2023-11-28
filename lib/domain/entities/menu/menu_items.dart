@@ -286,9 +286,16 @@ const appMenuItems = <MenuItem> [
 
   MenuItem(
       title: 'Dismissible',
-      subTitle: 'widget que puede descargar elementos hijos de la vista  arrastrando en la dirección correcta',
+      subTitle: 'widget que puede descargar elementos hijos de la vista  arrastrando en la dirección  correcta',
       link: '/dismissible',
       icon: Icons.sledding_rounded
+  ),
+
+  MenuItem(
+      title: 'ValueNotifier ',
+      subTitle: 'widgets que permiten mantener actualizados y sincronizados a aquellos widgets que escuchen su información ',
+      link: '/value-notifier',
+      icon: Icons.update_outlined
   ),
 
 ];

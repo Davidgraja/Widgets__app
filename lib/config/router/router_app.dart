@@ -397,10 +397,16 @@ final appRouter = GoRouter(
     ),
 
 
-     GoRoute(
+   GoRoute(
       path: '/dismissible',
       name: DismissibleScreen.name,
       builder: (context, state) => const DismissibleScreen(),
+    ),
+
+    GoRoute(
+      path: '/value-notifier',
+      name: ValueNotifierScreen.name,
+      builder: (context, state) => const ValueNotifierScreen(),
     ),
   ],
 );
