@@ -292,10 +292,17 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
-      title: 'ValueNotifier ',
-      subTitle: 'widgets que permiten mantener actualizados y sincronizados a aquellos widgets que escuchen su información ',
+      title: 'ValueNotifier',
+      subTitle: 'widget que permite mantener actualizados y sincronizados a aquellos widgets que escuchen su información ',
       link: '/value-notifier',
       icon: Icons.update_outlined
+  ),
+
+  MenuItem(
+      title: 'AnimateList',
+      subTitle: 'widget que añade animación  de una lista al añadir o eliminar elementos',
+      link: '/animate-list',
+      icon: Icons.filter_list_outlined
   ),
 
 ];

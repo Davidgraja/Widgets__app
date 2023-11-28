@@ -408,5 +408,11 @@ final appRouter = GoRouter(
       name: ValueNotifierScreen.name,
       builder: (context, state) => const ValueNotifierScreen(),
     ),
+
+    GoRoute(
+      path: '/animate-list',
+      name: AnimateListScreen.name,
+      builder: (context, state) => const AnimateListScreen(),
+    ),
   ],
 );
