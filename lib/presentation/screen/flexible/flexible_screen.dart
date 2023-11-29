@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+///Este widget es interesante y util por que nos permite flexionar un widget hijo dentro de Row , Column y Flex
+///Esto a su vez permite que se adapte al tamaño de su padre cuando este cambie ya que va distribuir estos widgets segun el tamaño del padre y la flexibilidad que le demos
+
 class FlexibleScreen extends StatelessWidget {
   static const name = 'flexible_screen';
   const FlexibleScreen({super.key});
