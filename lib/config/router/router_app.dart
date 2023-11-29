@@ -420,5 +420,11 @@ final appRouter = GoRouter(
       name: FlexibleScreen.name,
       builder: (context, state) => const FlexibleScreen(),
     ),
+
+    GoRoute(
+      path: '/media-query',
+      name: MediaQueryScreen.name,
+      builder: (context, state) => const MediaQueryScreen(),
+    ),
   ],
 );

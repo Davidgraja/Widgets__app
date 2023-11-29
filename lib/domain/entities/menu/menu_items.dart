@@ -312,6 +312,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.expand
   ),
 
+  MenuItem(
+      title: 'MediaQuery',
+      subTitle: 'Widget que proporciona información del dispositivo',
+      link: '/media-query',
+      icon: Icons.info
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
