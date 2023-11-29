@@ -305,6 +305,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.filter_list_outlined
   ),
 
+  MenuItem(
+      title: 'Flexible',
+      subTitle: 'Widget que controla que tan flexible puede ser un elemento dentro de un Row , Column o flex',
+      link: '/flexible',
+      icon: Icons.expand
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

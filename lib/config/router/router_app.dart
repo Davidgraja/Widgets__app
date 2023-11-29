@@ -414,5 +414,11 @@ final appRouter = GoRouter(
       name: AnimateListScreen.name,
       builder: (context, state) => const AnimateListScreen(),
     ),
+
+    GoRoute(
+      path: '/flexible',
+      name: FlexibleScreen.name,
+      builder: (context, state) => const FlexibleScreen(),
+    ),
   ],
 );

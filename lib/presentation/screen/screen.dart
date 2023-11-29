@@ -1,3 +1,5 @@
+
+export 'package:widget_app/presentation/screen/flexible/flexible_screen.dart';
 export 'package:widget_app/presentation/screen/animate_list/animate_list_screen.dart';
 export 'package:widget_app/presentation/screen/value_notifier/value_notifier_screen.dart';
 export 'package:widget_app/presentation/screen/absorb_pointer/absorb_pointer_screen.dart';
