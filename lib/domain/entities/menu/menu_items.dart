@@ -326,6 +326,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.space_bar_outlined
   ),
 
+  MenuItem(
+      title: 'AnimatedIcon',
+      subTitle: 'Widget que permite animar un icono',
+      link: '/animated-icon',
+      icon: Icons.animation_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

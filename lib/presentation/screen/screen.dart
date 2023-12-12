@@ -3,6 +3,7 @@ export 'package:widget_app/presentation/screen/align/align_screen.dart';
 export 'package:widget_app/presentation/screen/align/screens/align_screen_one.dart';
 export 'package:widget_app/presentation/screen/align/screens/align_screen_two.dart';
 export 'package:widget_app/presentation/screen/animate_list/animate_list_screen.dart';
+export 'package:widget_app/presentation/screen/animated_icon/animated_icon_screen.dart';
 export 'package:widget_app/presentation/screen/animated/animated_screen.dart';
 export 'package:widget_app/presentation/screen/app_bar/app_bar_screen.dart';
 export 'package:widget_app/presentation/screen/app_tutorial/app_tutorial_screen.dart';

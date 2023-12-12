@@ -432,5 +432,11 @@ final appRouter = GoRouter(
       name: SpacerScreen.name,
       builder: (context, state) => const SpacerScreen(),
     ),
+
+    GoRoute(
+      path: '/animated-icon',
+      name: AnimatedIconScreen.name,
+      builder: (context, state) => const AnimatedIconScreen(),
+    ),
   ],
 );
