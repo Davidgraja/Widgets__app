@@ -11,7 +11,7 @@ class AlignScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Chips'),
+        title: const Text('Align'),
       ),
       body: ListView.builder(
         itemCount: alignItems.length,
