@@ -426,5 +426,11 @@ final appRouter = GoRouter(
       name: MediaQueryScreen.name,
       builder: (context, state) => const MediaQueryScreen(),
     ),
+
+    GoRoute(
+      path: '/spacer',
+      name: SpacerScreen.name,
+      builder: (context, state) => const SpacerScreen(),
+    ),
   ],
 );

@@ -319,6 +319,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.info
   ),
 
+   MenuItem(
+      title: 'Spacer',
+      subTitle: 'Widget que permite personalizar la distrución del espacio dentro de Column, Row , etc',
+      link: '/spacer',
+      icon: Icons.space_bar_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
