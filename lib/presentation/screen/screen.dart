@@ -7,6 +7,7 @@ export 'package:widget_app/presentation/screen/animated_icon/animated_icon_scree
 export 'package:widget_app/presentation/screen/animated/animated_screen.dart';
 export 'package:widget_app/presentation/screen/app_bar/app_bar_screen.dart';
 export 'package:widget_app/presentation/screen/app_tutorial/app_tutorial_screen.dart';
+export 'package:widget_app/presentation/screen/aspect_ratio/aspect_ratio_screen.dart';
 export 'package:widget_app/presentation/screen/backdrop_filter/backdrop_filter_screen.dart';
 export 'package:widget_app/presentation/screen/buttons/buttons_screen.dart';
 export 'package:widget_app/presentation/screen/cards/cards_screen.dart';

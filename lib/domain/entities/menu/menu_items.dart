@@ -333,6 +333,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.animation_outlined
   ),
 
+  MenuItem(
+      title: 'AspectRatio',
+      subTitle: 'Widget que  intenta ajustar el tamaño del hijo en relación al aspecto dado',
+      link: '/aspect-ratio',
+      icon: Icons.aspect_ratio_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

@@ -438,5 +438,11 @@ final appRouter = GoRouter(
       name: AnimatedIconScreen.name,
       builder: (context, state) => const AnimatedIconScreen(),
     ),
+
+     GoRoute(
+      path: '/aspect-ratio',
+      name: AspectRatioScreen.name,
+      builder: (context, state) => const AspectRatioScreen(),
+    ),
   ],
 );
