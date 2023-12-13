@@ -42,13 +42,17 @@ class _ValueNotifierScreenState extends State<ValueNotifierScreen> {
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           FloatingActionButton(
+              heroTag: '1',
               onPressed: (){
                 _counter.value =_counter.value + 1;
               },
               child: const Icon(Icons.add)
           ),
+
           const SizedBox(height: 10,),
+
           FloatingActionButton(
+              heroTag: '2',
               onPressed: (){
                 if(_counter.value == 0) return;
                 _counter.value = _counter.value - 1;
