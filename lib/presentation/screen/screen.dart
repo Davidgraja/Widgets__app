@@ -35,6 +35,9 @@ export 'package:widget_app/presentation/screen/image_filtered/image_filtared_scr
 export 'package:widget_app/presentation/screen/infinite_scroll/infinite_scroll_screem.dart';
 export 'package:widget_app/presentation/screen/inherited_widget_and_model/inherited_widget_screen.dart';
 export 'package:widget_app/presentation/screen/layout_builder/layout_builder_screen.dart';
+export 'package:widget_app/presentation/screen/limited_box/limited_box_screen.dart';
+export 'package:widget_app/presentation/screen/limited_box/screens/limited_box_one_screen.dart';
+export 'package:widget_app/presentation/screen/limited_box/screens/limited_box_two_screen.dart';
 export 'package:widget_app/presentation/screen/media_query/media_query_screen.dart';
 export 'package:widget_app/presentation/screen/opacity_and_animated/animated_opacity.dart';
 export 'package:widget_app/presentation/screen/opacity_and_animated/opacity_screen.dart';

@@ -439,10 +439,29 @@ final appRouter = GoRouter(
       builder: (context, state) => const AnimatedIconScreen(),
     ),
 
-     GoRoute(
+    GoRoute(
       path: '/aspect-ratio',
       name: AspectRatioScreen.name,
       builder: (context, state) => const AspectRatioScreen(),
+    ),
+
+    GoRoute(
+      path: '/limited-box',
+      name: LimitedBoxScreen.name,
+      builder: (context, state) => const LimitedBoxScreen(),
+      routes: [
+        GoRoute(
+          path: 'one',
+          name: LimitedBoxOneScreen.name,
+          builder: (context, state) => const LimitedBoxOneScreen(),
+        ),
+
+        GoRoute(
+          path: 'two',
+          name: LimitedBoxTwoScreen.name,
+          builder: (context, state) => const LimitedBoxTwoScreen(),
+        ),
+      ]
     ),
   ],
 );

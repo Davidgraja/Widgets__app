@@ -340,6 +340,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.aspect_ratio_outlined
   ),
 
+  MenuItem(
+      title: 'LimitedBox',
+      subTitle: 'Widget que limita su tamaño sólo cuando no tiene restricciones',
+      link: '/limited-box',
+      icon: Icons.check_box_outline_blank_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
@@ -502,7 +509,6 @@ const heroItems = <MenuItem>[
   ),
 ];
 
-
 const alignItems = <MenuItem>[
   MenuItem(
       title: 'Align con propiedades estaticas',
@@ -515,6 +521,22 @@ const alignItems = <MenuItem>[
       title: 'Align con valores numericos',
       subTitle: 'Alineación con valores numericos con la clase Alignment ',
       link:'/align/two',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+];
+
+const limitedBoxItems = <MenuItem>[
+  MenuItem(
+      title: 'Ejemplo 1',
+      subTitle: '',
+      link:'/limited-box/one',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+      title: 'Ejemplo 1',
+      subTitle: 'LimitedBox aplicado a ListView',
+      link:'/limited-box/two',
       icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
 ];
