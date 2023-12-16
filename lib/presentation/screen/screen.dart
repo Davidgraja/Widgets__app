@@ -1,3 +1,4 @@
+export 'package:widget_app/presentation/screen/rich_text/rich_text_screen.dart';
 export 'package:widget_app/presentation/screen/absorb_pointer/absorb_pointer_screen.dart';
 export 'package:widget_app/presentation/screen/align/align_screen.dart';
 export 'package:widget_app/presentation/screen/align/screens/align_screen_one.dart';

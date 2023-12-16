@@ -463,5 +463,11 @@ final appRouter = GoRouter(
         ),
       ]
     ),
+
+    GoRoute(
+      path: '/rich-text',
+      name: RichTextScreen.name,
+      builder: (context, state) => const RichTextScreen(),
+    ),
   ],
 );

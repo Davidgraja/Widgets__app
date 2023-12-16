@@ -347,6 +347,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.check_box_outline_blank_outlined
   ),
 
+  MenuItem(
+      title: 'RichText',
+      subTitle: 'Widget que permite mostrar  un texto con diferentes tamaños , estilos y diferentes estilos',
+      link: '/rich-text',
+      icon: Icons.text_rotation_angledown_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
