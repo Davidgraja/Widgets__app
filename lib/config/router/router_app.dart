@@ -469,5 +469,11 @@ final appRouter = GoRouter(
       name: RichTextScreen.name,
       builder: (context, state) => const RichTextScreen(),
     ),
+
+    GoRoute(
+      path: '/reorderable-list',
+      name: ReorderableListViewScreen.name,
+      builder: (context, state) => const ReorderableListViewScreen(),
+    ),
   ],
 );

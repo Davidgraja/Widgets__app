@@ -354,6 +354,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.text_rotation_angledown_outlined
   ),
 
+  MenuItem(
+      title: 'ReorderableListView',
+      subTitle: 'Widget que permite reordenar los elementos de una lista',
+      link: '/reorderable-list',
+      icon: Icons.reorder_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
