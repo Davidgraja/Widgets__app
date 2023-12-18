@@ -554,3 +554,19 @@ const limitedBoxItems = <MenuItem>[
       icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
 ];
+
+const reorderableItems = <MenuItem>[
+  MenuItem(
+      title: 'ReorderableListView basico',
+      subTitle: 'Ejemplo basico aplicado a un ListTile',
+      link:'/reorderable-list/one',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+      title: 'ReorderableListView con animación',
+      subTitle: 'ReorderableListView con animación al realizar el reordaminento de la lista',
+      link:'/reorderable-list/two',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+];

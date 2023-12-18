@@ -474,6 +474,19 @@ final appRouter = GoRouter(
       path: '/reorderable-list',
       name: ReorderableListViewScreen.name,
       builder: (context, state) => const ReorderableListViewScreen(),
+      routes: [
+        GoRoute(
+          path: 'one',
+          name: ReorderableListOneScreen.name,
+          builder: (context, state) => const ReorderableListOneScreen(),
+        ),
+
+        GoRoute(
+          path: 'two',
+          name: ReorderableListTwoScreen.name,
+          builder: (context, state) => const ReorderableListTwoScreen(),
+        ),
+      ]
     ),
   ],
 );
