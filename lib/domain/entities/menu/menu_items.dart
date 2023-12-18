@@ -361,6 +361,12 @@ const appMenuItems = <MenuItem> [
       icon: Icons.reorder_outlined
   ),
 
+  MenuItem(
+      title: 'AnimatedSwitcher',
+      subTitle: 'Widget que realiza una animación de cambio entre widgets',
+      link: '/animated-switcher',
+      icon: Icons.animation_outlined
+  ),
 ];
 
 const appBarItems = <MenuItem>[

@@ -1,3 +1,4 @@
+export 'package:widget_app/presentation/screen/animated_switcher/animated_switcher_screen.dart';
 export 'package:widget_app/presentation/screen/reorderable_list_view/screens/reorderable_list_two_screen.dart';
 export 'package:widget_app/presentation/screen/reorderable_list_view/screens/reorderable_list_one_screen.dart';
 export  'package:widget_app/presentation/screen/reorderable_list_view/reorderable_list_view_screen.dart';

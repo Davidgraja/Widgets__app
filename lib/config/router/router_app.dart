@@ -488,5 +488,12 @@ final appRouter = GoRouter(
         ),
       ]
     ),
+
+    GoRoute(
+      path: '/animated-switcher',
+      name: AnimatedSwitcherScreen.name,
+      builder: (context, state) => const AnimatedSwitcherScreen(),
+    ),
+
   ],
 );
