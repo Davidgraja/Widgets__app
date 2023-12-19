@@ -495,5 +495,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const AnimatedSwitcherScreen(),
     ),
 
+    GoRoute(
+      path: '/animated-positioned',
+      name: AnimatedPostionedScreen.name,
+      builder: (context, state) => const AnimatedPostionedScreen(),
+    ),
+
   ],
 );

@@ -367,6 +367,14 @@ const appMenuItems = <MenuItem> [
       link: '/animated-switcher',
       icon: Icons.animation_outlined
   ),
+
+  MenuItem(
+      title: 'AnimatedPositioned',
+      subTitle: 'Widget que cambia la posición del hijo junto a una animación , solo es posible usarlo dentro de un Stack',
+      link: '/animated-positioned',
+      icon: Icons.animation_outlined
+  )
+
 ];
 
 const appBarItems = <MenuItem>[

@@ -1,14 +1,11 @@
-export 'package:widget_app/presentation/screen/animated_switcher/animated_switcher_screen.dart';
-export 'package:widget_app/presentation/screen/reorderable_list_view/screens/reorderable_list_two_screen.dart';
-export 'package:widget_app/presentation/screen/reorderable_list_view/screens/reorderable_list_one_screen.dart';
-export  'package:widget_app/presentation/screen/reorderable_list_view/reorderable_list_view_screen.dart';
-export 'package:widget_app/presentation/screen/rich_text/rich_text_screen.dart';
 export 'package:widget_app/presentation/screen/absorb_pointer/absorb_pointer_screen.dart';
 export 'package:widget_app/presentation/screen/align/align_screen.dart';
 export 'package:widget_app/presentation/screen/align/screens/align_screen_one.dart';
 export 'package:widget_app/presentation/screen/align/screens/align_screen_two.dart';
 export 'package:widget_app/presentation/screen/animate_list/animate_list_screen.dart';
 export 'package:widget_app/presentation/screen/animated_icon/animated_icon_screen.dart';
+export 'package:widget_app/presentation/screen/animated_positioned/animated_positioned_screen.dart';
+export 'package:widget_app/presentation/screen/animated_switcher/animated_switcher_screen.dart';
 export 'package:widget_app/presentation/screen/animated/animated_screen.dart';
 export 'package:widget_app/presentation/screen/app_bar/app_bar_screen.dart';
 export 'package:widget_app/presentation/screen/app_tutorial/app_tutorial_screen.dart';
@@ -49,6 +46,10 @@ export 'package:widget_app/presentation/screen/opacity_and_animated/opacity_scre
 export 'package:widget_app/presentation/screen/page_view/page_view_screen.dart';
 export 'package:widget_app/presentation/screen/page_view/screens/screens.dart';
 export 'package:widget_app/presentation/screen/progress/progress_screen.dart';
+export 'package:widget_app/presentation/screen/reorderable_list_view/reorderable_list_view_screen.dart';
+export 'package:widget_app/presentation/screen/reorderable_list_view/screens/reorderable_list_one_screen.dart';
+export 'package:widget_app/presentation/screen/reorderable_list_view/screens/reorderable_list_two_screen.dart';
+export 'package:widget_app/presentation/screen/rich_text/rich_text_screen.dart';
 export 'package:widget_app/presentation/screen/safe_area/safe_area_screen.dart';
 export 'package:widget_app/presentation/screen/snackbar/sbackbar_screen.dart';
 export 'package:widget_app/presentation/screen/spacer/spacer_screen.dart';
