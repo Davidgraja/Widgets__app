@@ -35,6 +35,7 @@ export 'package:widget_app/presentation/screen/hero/screens/hero_normal_screen.d
 export 'package:widget_app/presentation/screen/hero/screens/hero_rect_tween.dart';
 export 'package:widget_app/presentation/screen/home/home_screen.dart';
 export 'package:widget_app/presentation/screen/image_filtered/image_filtared_screen.dart';
+export 'package:widget_app/presentation/screen/indexed_stack/indexed_stack_screen.dart';
 export 'package:widget_app/presentation/screen/infinite_scroll/infinite_scroll_screem.dart';
 export 'package:widget_app/presentation/screen/inherited_widget_and_model/inherited_widget_screen.dart';
 export 'package:widget_app/presentation/screen/layout_builder/layout_builder_screen.dart';

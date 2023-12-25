@@ -501,10 +501,17 @@ final appRouter = GoRouter(
       builder: (context, state) => const AnimatedPostionedScreen(),
     ),
 
-     GoRoute(
+    GoRoute(
       path: '/animated-padding',
       name: AnimatedPaddingScreen.name,
       builder: (context, state) => const AnimatedPaddingScreen(),
+    ),
+
+
+    GoRoute(
+      path: '/indexed-stack',
+      name: IndexedStackScreen.name,
+      builder: (context, state) => const IndexedStackScreen(),
     ),
 
   ],

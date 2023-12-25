@@ -380,6 +380,14 @@ const appMenuItems = <MenuItem> [
       subTitle: 'Widget realiza el cambio de padding de su hijo junto a una animación',
       link: '/animated-padding',
       icon: Icons.animation_outlined
+  ),
+
+
+  MenuItem(
+      title: 'IndexedStack',
+      subTitle: 'un Stack que muestra a un unico hijo , se mostrara aquel hijo que se encuentre en el index enviado, Algo importante es que mantiene el estado de todos los hijos , sin importar si cambiamos entre estos',
+      link: '/indexed-stack',
+      icon: Icons.stacked_bar_chart_outlined
   )
 
 ];
