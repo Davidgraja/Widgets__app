@@ -45,7 +45,7 @@ class _AnimatedPositionedViewState extends State<_AnimatedPositionedView> {
         AnimatedPositioned(
           duration: const Duration(seconds: 2),
           curve: Curves.bounceOut,
-          top: (showLogo) ? height * 0.29 : height * 0.4,
+          top: (showLogo) ? height * 0.26 : height * 0.4,
           left: width * 0.32,
           child: Container(
             decoration: BoxDecoration(
