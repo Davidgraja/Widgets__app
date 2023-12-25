@@ -373,6 +373,13 @@ const appMenuItems = <MenuItem> [
       subTitle: 'Widget que cambia la posición del hijo junto a una animación , solo es posible usarlo dentro de un Stack',
       link: '/animated-positioned',
       icon: Icons.animation_outlined
+  ),
+
+  MenuItem(
+      title: 'AnimatedPadding',
+      subTitle: 'Widget realiza el cambio de padding de su hijo junto a una animación',
+      link: '/animated-padding',
+      icon: Icons.animation_outlined
   )
 
 ];
