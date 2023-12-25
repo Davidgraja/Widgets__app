@@ -17,6 +17,7 @@ export 'package:widget_app/presentation/screen/cards/cards_screen.dart';
 export 'package:widget_app/presentation/screen/chip/chips_screen.dart';
 export 'package:widget_app/presentation/screen/chip/screens/chips.dart';
 export 'package:widget_app/presentation/screen/cliprrect_clipoval_clippath/cliprrect_clipoval_clippath_screen.dart';
+export 'package:widget_app/presentation/screen/constrained_box/constrained_box_screen.dart';
 export 'package:widget_app/presentation/screen/counter/counter_screen.dart';
 export 'package:widget_app/presentation/screen/custom_painter/custom_painter_screen.dart';
 export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_appbar_and_list.dart';

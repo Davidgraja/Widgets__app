@@ -382,12 +382,19 @@ const appMenuItems = <MenuItem> [
       icon: Icons.animation_outlined
   ),
 
-
   MenuItem(
       title: 'IndexedStack',
-      subTitle: 'un Stack que muestra a un unico hijo , se mostrara aquel hijo que se encuentre en el index enviado, Algo importante es que mantiene el estado de todos los hijos , sin importar si cambiamos entre estos',
+      subTitle: 'Un Stack que muestra a un unico hijo , se mostrara aquel hijo que se encuentre en el index enviado, Algo importante es que mantiene el estado de todos los hijos , sin importar si cambiamos entre estos',
       link: '/indexed-stack',
       icon: Icons.stacked_bar_chart_outlined
+  ),
+
+
+   MenuItem(
+      title: 'ConstrainedBox',
+      subTitle: 'Widget que impone restricciones adicionales a su hijo',
+      link: '/constrained-box',
+      icon: Icons.check_box_outline_blank_outlined
   )
 
 ];

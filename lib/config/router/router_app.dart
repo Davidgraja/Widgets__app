@@ -514,5 +514,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const IndexedStackScreen(),
     ),
 
+    GoRoute(
+      path: '/constrained-box',
+      name: ConstrainedBoxScreen.name,
+      builder: (context, state) => const ConstrainedBoxScreen(),
+    ),
+
   ],
 );
