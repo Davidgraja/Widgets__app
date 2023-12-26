@@ -30,6 +30,7 @@ class _HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+      reverse: true,
       // physics:  BouncingScrollPhysics() ,
       itemCount: appMenuItems.length,
       itemBuilder: (context, index) {

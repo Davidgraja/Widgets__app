@@ -54,8 +54,8 @@ class _FractinallyView extends StatelessWidget {
             heightFactor: 0.1,
            ),
          ),
-    
-        
+
+
           const FractionallySizedBox(
             widthFactor: 0.6,
             child: Text('Este texto tiene un widthFactor de 0.6 , esto equivale al 60 porciento de la pantalla actual ')
