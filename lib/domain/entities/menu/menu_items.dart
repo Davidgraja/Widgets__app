@@ -402,6 +402,13 @@ const appMenuItems = <MenuItem> [
       subTitle: 'Widget que dimensiona a su hijo a una fracción del espacio total',
       link: '/fractionally-size-box',
       icon: Icons.check_box_outline_blank_outlined
+  ),
+
+  MenuItem(
+      title: 'Container',
+      subTitle: 'Widget que envuelve  a su hijo y permite dar efectos de pintura , posicionamiento y taamaño',
+      link: '/container',
+      icon: Icons.check_box_outline_blank_outlined
   )
 
 ];

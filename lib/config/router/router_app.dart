@@ -526,5 +526,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const FractionallySizeBoxScreen(),
     ),
 
+    GoRoute(
+      path: '/container',
+      name: ContainerScreen.name,
+      builder: (context, state) => const ContainerScreen(),
+    ),
+
   ],
 );
