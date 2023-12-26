@@ -390,10 +390,17 @@ const appMenuItems = <MenuItem> [
   ),
 
 
-   MenuItem(
+  MenuItem(
       title: 'ConstrainedBox',
       subTitle: 'Widget que impone restricciones adicionales a su hijo',
       link: '/constrained-box',
+      icon: Icons.check_box_outline_blank_outlined
+  ),
+
+   MenuItem(
+      title: 'FractionallySizeBox',
+      subTitle: 'Widget que dimensiona a su hijo a una fracción del espacio total',
+      link: '/fractionally-size-box',
       icon: Icons.check_box_outline_blank_outlined
   )
 

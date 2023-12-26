@@ -520,5 +520,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const ConstrainedBoxScreen(),
     ),
 
+    GoRoute(
+      path: '/fractionally-size-box',
+      name: FractionallySizeBoxScreen.name,
+      builder: (context, state) => const FractionallySizeBoxScreen(),
+    ),
+
   ],
 );
