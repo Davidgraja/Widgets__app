@@ -532,5 +532,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const ContainerScreen(),
     ),
 
+    GoRoute(
+      path: '/selectable-text',
+      name: SelectableTextScreen.name,
+      builder: (context, state) => const SelectableTextScreen(),
+    ),
+
   ],
 );

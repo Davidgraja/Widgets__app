@@ -409,7 +409,14 @@ const appMenuItems = <MenuItem> [
       subTitle: 'Widget que envuelve  a su hijo y permite dar efectos de pintura , posicionamiento y taamaño',
       link: '/container',
       icon: Icons.check_box_outline_blank_outlined
-  )
+  ),
+
+  MenuItem(
+      title: 'SelectableText',
+      subTitle: 'Widget que permite editar  y dar estilo a la selección de texto',
+      link: '/selectable-text',
+      icon: Icons.short_text_rounded
+  ),
 
 ];
 
