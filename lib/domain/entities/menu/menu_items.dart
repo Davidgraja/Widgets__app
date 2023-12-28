@@ -418,6 +418,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.short_text_rounded
   ),
 
+  MenuItem(
+      title: 'DataTable',
+      subTitle: 'Widget que  permite mostrar informacion en una tabla de forma mas sencilla y en base a material desing ',
+      link: '/data-table',
+      icon: Icons.grid_on_rounded
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

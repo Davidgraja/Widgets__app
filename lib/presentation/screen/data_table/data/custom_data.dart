@@ -1,0 +1,61 @@
+final dataTableUsers = [{
+  "first_name": "Patric",
+  "last_name": "Peris",
+  "email": "pperis0@globo.com",
+  "gender": "Male",
+  "phone": "596-730-6797"
+}, {
+  "first_name": "Emeline",
+  "last_name": "Reddie",
+  "email": "ereddie1@dot.gov",
+  "gender": "Female",
+  "phone": "266-725-3514"
+}, {
+  "first_name": "Fay",
+  "last_name": "Yurasov",
+  "email": "fyurasov2@toplist.cz",
+  "gender": "Female",
+  "phone": "680-757-0545"
+}, {
+  "first_name": "Verile",
+  "last_name": "Muckle",
+  "email": "vmuckle3@microsoft.com",
+  "gender": "Female",
+  "phone": "396-411-6427"
+}, {
+  "first_name": "Alister",
+  "last_name": "Loeber",
+  "email": "aloeber4@army.mil",
+  "gender": "Male",
+  "phone": "329-758-4596"
+}, {
+  "first_name": "Frieda",
+  "last_name": "Loomes",
+  "email": "floomes5@google.co.uk",
+  "gender": "Female",
+  "phone": "937-849-0626"
+}, {
+  "first_name": "Levon",
+  "last_name": "Mateo",
+  "email": "lmateo6@bloglovin.com",
+  "gender": "Male",
+  "phone": "801-946-8210"
+}, {
+  "first_name": "Markos",
+  "last_name": "Carlan",
+  "email": "mcarlan7@mashable.com",
+  "gender": "Male",
+  "phone": "144-312-0951"
+}, {
+  "first_name": "Boothe",
+  "last_name": "Branney",
+  "email": "bbranney8@alexa.com",
+  "gender": "Male",
+  "phone": "881-972-1608"
+}, {
+  "first_name": "Judith",
+  "last_name": "Mogie",
+  "email": "jmogie9@geocities.jp",
+  "gender": "Female",
+  "phone": "631-348-8469"
+}];

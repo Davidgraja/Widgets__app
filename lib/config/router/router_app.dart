@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 
 import 'package:widget_app/presentation/screen/app_bar/screens/screens.dart';
+import 'package:widget_app/presentation/screen/data_table/data_table_screen.dart';
 import 'package:widget_app/presentation/screen/screen.dart';
 import 'package:widget_app/presentation/screen/stack/screens/stacks.dart';
 import 'package:widget_app/presentation/screen/tab_bar/screens/screens.dart';
@@ -536,6 +537,12 @@ final appRouter = GoRouter(
       path: '/selectable-text',
       name: SelectableTextScreen.name,
       builder: (context, state) => const SelectableTextScreen(),
+    ),
+
+    GoRoute(
+      path: '/data-table',
+      name: DataTableScreen.name,
+      builder: (context, state) => const DataTableScreen(),
     ),
 
   ],
