@@ -7,6 +7,7 @@ class MediaQueryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar:AppBar() ,
       body: _MediaQueryView()
     );
   }
@@ -18,7 +19,7 @@ class _MediaQueryView extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return SafeArea(
-      minimum: EdgeInsets.only(top: 30),
+      minimum: const EdgeInsets.only(top: 30),
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: SizedBox(
@@ -28,12 +29,12 @@ class _MediaQueryView extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
 
-                Text('Nota' ,style: TextStyle(color: Colors.red , fontSize: 20),),
-                Text(
+                const Text('Nota' ,style: TextStyle(color: Colors.red , fontSize: 20),),
+                const Text(
                     'Podemos acceder a cada una de las siguientes propiedades por medio de sus metodos estaticos o por medio de el metodo estatico of()'
                 ),
 
-                SizedBox(height: 10,),
+                const SizedBox(height: 10,),
 
                 BoxForInfo(
                   title: 'Padding actual del dispositivo',

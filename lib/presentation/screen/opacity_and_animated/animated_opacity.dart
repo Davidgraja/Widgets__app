@@ -18,6 +18,7 @@ class _AnimatedOpacityScreenState extends State<AnimatedOpacityScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       floatingActionButton: FloatingActionButton(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)) ,
         onPressed: (){

@@ -10,6 +10,7 @@ class FloatingActionButtonScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: _CustomFloatingButton(),
       bottomNavigationBar:  _CustomButtonNavigationBar(),

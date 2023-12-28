@@ -7,6 +7,7 @@ class OpacityScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: Container(
         alignment: Alignment.center,
         child: const Wrap(

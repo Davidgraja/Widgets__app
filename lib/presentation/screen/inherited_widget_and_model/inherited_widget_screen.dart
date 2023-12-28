@@ -23,6 +23,7 @@ class _InheritedWidgetScreenState extends State<InheritedWidgetScreen> {
       color1:  color1,
       color2:  color2,
       child: Scaffold(
+        appBar: AppBar(),
         body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,

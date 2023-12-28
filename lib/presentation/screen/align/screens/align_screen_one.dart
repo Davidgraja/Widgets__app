@@ -14,8 +14,9 @@ class AlingScreenOne extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  const Scaffold(
-      body:  Stack(
+    return   Scaffold(
+      appBar: AppBar(),
+      body:  const Stack(
         children: [
 
           Align(

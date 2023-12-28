@@ -48,7 +48,7 @@ class _FadeTransitionScreenState extends State<FadeTransitionScreen> with Ticker
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-     
+     appBar: AppBar(),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

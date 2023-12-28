@@ -25,6 +25,7 @@ class _AbsorbPointerScreenState extends State<AbsorbPointerScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: SafeArea(
         child: AbsorbPointer(
           absorbing: isAbsorbing ,

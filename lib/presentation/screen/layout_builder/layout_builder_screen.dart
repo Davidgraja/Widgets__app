@@ -14,6 +14,7 @@ class LayoutBuilderScreen extends StatelessWidget {
     
     return  SafeArea(
       child: Scaffold(
+        appBar: AppBar(),
         body: LayoutBuilder(
           builder: (context, constraints) {
             return (constraints.maxWidth < 600)
