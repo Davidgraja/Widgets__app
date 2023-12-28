@@ -14,6 +14,7 @@ class _IndexedStackScreenState extends State<IndexedStackScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
 
       body: IndexedStack(
         index: indexValue,
