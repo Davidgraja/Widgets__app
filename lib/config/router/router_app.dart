@@ -562,5 +562,21 @@ final appRouter = GoRouter(
       ]
     ),
 
+    GoRoute(
+      path: '/alert-dialog',
+      builder: (context, state) => const AlertDialog(),
+      routes: [
+        GoRoute(
+          path: 'one',
+          builder: (context, state) => const AlertDialogScreen(),
+        ),
+
+        GoRoute(
+          path: 'two',
+          builder: (context, state) => const CupertinoAlertDialogScreen(),
+        ),
+      ]
+    ),
+
   ],
 );

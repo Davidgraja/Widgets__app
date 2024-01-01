@@ -432,6 +432,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.settings_ethernet_outlined
   ),
 
+  MenuItem(
+      title: 'AlertDialog',
+      subTitle: 'Widget que te permite mostrarle mensajes de alerta y opciones al usuario ,como nota adicional podemos usar  showAdaptiveDialog y  AlertDialog.adaptive para que dependiendo de la plaforma se cree el alert especifico a esa plataforma  , caso contrario podemos usar los ejemplos en este apartado',
+      link: '/alert-dialog',
+      icon: Icons.messenger_outline_rounded
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
@@ -654,6 +661,22 @@ const sliderItems = <MenuItem>[
       title: 'RangeSlider',
       subTitle: 'Slider que permite seleccionar un subconjunto rango de valores',
       link:'/slider/two',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+];
+
+const alertDialogItems = <MenuItem>[
+  MenuItem(
+      title: 'AlertDialog en Material (Android , linx , etc)',
+      subTitle: 'showDialog y AlertDialog',
+      link:'/alert-dialog/one',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+      title: 'CupertinoAlertDialog para Cupertino (IOS , Mac)',
+      subTitle: 'ShowCupertinoDialog y CupertinoAlertDialog',
+      link:'/alert-dialog/two',
       icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
 ];
