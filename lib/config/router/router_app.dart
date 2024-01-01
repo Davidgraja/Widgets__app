@@ -545,5 +545,22 @@ final appRouter = GoRouter(
       builder: (context, state) => const DataTableScreen(),
     ),
 
+    GoRoute(
+      path: '/slider',
+      name: SliderScreen.name,
+      builder: (context, state) =>const SliderScreen(),
+      routes: [
+        GoRoute(
+          path: 'one',
+          builder: (context, state) => const SliderOne(),
+        ),
+
+        GoRoute(
+          path: 'two',
+          builder: (context, state) => const SliderTwo(),
+        ),
+      ]
+    ),
+
   ],
 );

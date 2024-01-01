@@ -1,6 +1,8 @@
 
-import 'package:widget_app/presentation/screen/data_table/data_table_screen.dart';
-
+export 'package:widget_app/presentation/screen/slider/screens/slider_two.dart';
+export 'package:widget_app/presentation/screen/slider/screens/slider_one.dart';
+export 'package:widget_app/presentation/screen/data_table/data_table_screen.dart';
+export 'package:widget_app/presentation/screen/slider/slider_screen.dart';
 export 'package:widget_app/presentation/screen/selectable_text/selectable_text_screen.dart';
 export 'package:widget_app/presentation/screen/absorb_pointer/absorb_pointer_screen.dart';
 export 'package:widget_app/presentation/screen/align/align_screen.dart';

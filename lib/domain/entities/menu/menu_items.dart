@@ -425,6 +425,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.grid_on_rounded
   ),
 
+  MenuItem(
+      title: 'Slider',
+      subTitle: 'Widget que te permite seleccionar entre un rango de valores',
+      link: '/slider',
+      icon: Icons.settings_ethernet_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
@@ -631,6 +638,22 @@ const reorderableItems = <MenuItem>[
       title: 'ReorderableListView con animación',
       subTitle: 'ReorderableListView con animación al realizar el reordaminento de la lista',
       link:'/reorderable-list/two',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+];
+
+const sliderItems = <MenuItem>[
+  MenuItem(
+      title: 'Slider basicos',
+      subTitle: 'Sliders basicos , personalizados  y adaptativos  tanto para IOS como android',
+      link:'/slider/one',
+      icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+      title: 'RangeSlider',
+      subTitle: 'Slider que permite seleccionar un subconjunto rango de valores',
+      link:'/slider/two',
       icon: Icons.do_not_disturb_on_total_silence_rounded
   ),
 ];
