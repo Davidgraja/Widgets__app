@@ -583,5 +583,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const AnimatedCrossFadeScreen(),
     ),
 
+    GoRoute(
+      path: '/draggable-scrollable-sheet',
+      builder: (context, state) => const DraggableScrollableSheetScreen(),
+    ),
+
   ],
 );

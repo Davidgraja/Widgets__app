@@ -446,6 +446,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.animation_outlined
   ),
 
+  MenuItem(
+      title: 'DraggableScrollableSheet',
+      subTitle: 'Contenedor para un elemento desplazable el cual responde a los getos de arrastre',
+      link: '/draggable-scrollable-sheet',
+      icon: Icons.line_weight_sharp
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[
