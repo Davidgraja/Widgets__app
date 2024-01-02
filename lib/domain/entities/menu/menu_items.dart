@@ -439,6 +439,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.messenger_outline_rounded
   ),
 
+  MenuItem(
+      title: 'AnimatedCrossFade',
+      subTitle: 'Widget que fuciona una animación de cambio entre dos hijos',
+      link: '/animated-cross-fade',
+      icon: Icons.animation_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

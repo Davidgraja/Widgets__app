@@ -578,5 +578,10 @@ final appRouter = GoRouter(
       ]
     ),
 
+    GoRoute(
+      path: '/animated-cross-fade',
+      builder: (context, state) => const AnimatedCrossFadeScreen(),
+    ),
+
   ],
 );
