@@ -453,6 +453,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.line_weight_sharp
   ),
 
+   MenuItem(
+      title: 'ColorFiltered',
+      subTitle: 'Widget que aplica un color de filtro a su hijo',
+      link: '/color-filtered',
+      icon: Icons.format_color_fill_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

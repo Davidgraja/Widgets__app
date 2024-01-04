@@ -588,5 +588,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const DraggableScrollableSheetScreen(),
     ),
 
+    GoRoute(
+      path: '/color-filtered',
+      builder: (context, state) => const ColorFilteredScreen(),
+    ),
+
   ],
 );
