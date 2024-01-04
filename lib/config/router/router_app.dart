@@ -593,5 +593,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const ColorFilteredScreen(),
     ),
 
+    GoRoute(
+      path: '/toggle-buttons',
+      builder: (context, state) => const ToggleButtonsScreen(),
+    ),
+
   ],
 );

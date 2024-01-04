@@ -460,6 +460,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.format_color_fill_outlined
   ),
 
+  MenuItem(
+      title: 'ToggleButtons',
+      subTitle: 'Widget que  muestra un conjunto de botones de alternacia al usuario',
+      link: '/toggle-buttons',
+      icon: Icons.widgets_outlined
+  ),
+
 ];
 
 const appBarItems = <MenuItem>[

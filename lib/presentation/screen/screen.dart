@@ -1,4 +1,5 @@
 
+
 export 'package:widget_app/presentation/screen/absorb_pointer/absorb_pointer_screen.dart';
 export 'package:widget_app/presentation/screen/alert_dialog/alert_dialog.dart';
 export 'package:widget_app/presentation/screen/alert_dialog/screens/alert_dialog_screen.dart';
@@ -74,6 +75,7 @@ export 'package:widget_app/presentation/screen/stack/stack_screen.dart';
 export 'package:widget_app/presentation/screen/stream_builder/stream_builder_screen.dart';
 export 'package:widget_app/presentation/screen/tab_bar/tab_bar_screen.dart';
 export 'package:widget_app/presentation/screen/table/table_screen.dart';
+export 'package:widget_app/presentation/screen/toggle_buttons/toggle_buttons_screen.dart';
 export 'package:widget_app/presentation/screen/tooltip/tooltip_screen.dart';
 export 'package:widget_app/presentation/screen/ui_controls/theme_changer_screen.dart';
 export 'package:widget_app/presentation/screen/ui_controls/ui_controls_screen.dart';
