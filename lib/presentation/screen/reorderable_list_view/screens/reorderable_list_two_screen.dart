@@ -67,9 +67,9 @@ class _ReorderableViewState extends State<_ReorderableView> {
 class CustomCard extends StatelessWidget {
   final int index;
   final Color color;
-  double? elevation;
+  final double? elevation;
 
-  CustomCard({
+  const CustomCard({
     super.key,
     required this.index,
     required this.color,
