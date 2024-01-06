@@ -28,21 +28,16 @@ class _AnimatedFadeViewState extends State<_AnimatedFadeView> {
 
   @override
   Widget build(BuildContext context) {
-
-    final size = MediaQuery.of(context).size;
-
     return  Stack(
       children: [
           Align(
           child: Container(
-            width: size.width * 0.7,
-            height: 210,
             alignment: Alignment.center,
             child: AnimatedCrossFade(
               crossFadeState: crossFadeState ? CrossFadeState.showFirst : CrossFadeState.showSecond , 
               duration: const Duration(milliseconds: 500),
-              firstChild:  Image.asset('assets/images/4.jpg' , fit: BoxFit.cover, width: double.infinity,),
-              secondChild:  Image.asset('assets/images/5.png',  fit: BoxFit.cover , width: double.infinity), 
+              firstChild:  const _CustomImageAsset('assets/images/4.jpg'),
+              secondChild:  const _CustomImageAsset('assets/images/5.png'),
 
               excludeBottomFocus: true,
               
@@ -88,6 +83,22 @@ class _AnimatedFadeViewState extends State<_AnimatedFadeView> {
           ),
         )
       ],  
+    );
+  }
+}
+
+
+class _CustomImageAsset extends StatelessWidget {
+  final String directionImage;
+  const _CustomImageAsset(this.directionImage);
+
+  @override
+  Widget build(BuildContext context) {
+    return  Image.asset(
+      directionImage, 
+      fit: BoxFit.cover, 
+      width: 300, 
+      height: 210,
     );
   }
 }
