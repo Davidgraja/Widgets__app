@@ -7,7 +7,9 @@ class DrawerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text('Drawer'),
+      ),
       body: const _DrawerBody(),
       endDrawer: const _DrawerView(),
     );
@@ -51,7 +53,7 @@ class _DrawerBody extends StatelessWidget {
         onPressed: (){
           Scaffold.of(context).openEndDrawer();
         },
-        child: const Text('Open Drawer') , 
+        child: const Text('Open Drawer') ,
       ),
     );
   }
