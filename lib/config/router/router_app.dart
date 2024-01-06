@@ -603,5 +603,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const CupertinoActionSheetScreen(),
     ),
 
+    GoRoute(
+      path: '/drawer',
+      builder: (context, state) => const DrawerScreen(),
+    ),
+
   ],
 );

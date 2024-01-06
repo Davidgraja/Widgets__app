@@ -467,7 +467,6 @@ const appMenuItems = <MenuItem> [
       icon: Icons.widgets_outlined
   ),
 
-
   MenuItem(
       title: 'CupertinoActionSheet',
       subTitle: 'Widget muestra una hoja de acción o de alerta al usuario con dos o mas opciones segun el contexto',
@@ -475,6 +474,12 @@ const appMenuItems = <MenuItem> [
       icon: Icons.messenger_outline_rounded
   ),
 
+  MenuItem(
+        title: 'Drawer',
+        subTitle: 'Widget que muestra un panel en sabor material desing que se desliza horizontal desde el borde de un Scaffold para mostrar enlaces de navegación en un aplicacción ',
+        link: '/drawer',
+        icon: Icons.horizontal_distribute_outlined
+    ),
 
 ];
 

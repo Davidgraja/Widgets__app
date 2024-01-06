@@ -35,6 +35,7 @@ export 'package:widget_app/presentation/screen/customScrollView/scroll_view_sliv
 export 'package:widget_app/presentation/screen/data_table/data_table_screen.dart';
 export 'package:widget_app/presentation/screen/dismissible/dismissible_screen.dart';
 export 'package:widget_app/presentation/screen/draggable_scrollable_Sheet/draggable_scrollable_sheet.dart';
+export 'package:widget_app/presentation/screen/drawer/drawer_screen.dart';
 export 'package:widget_app/presentation/screen/expanded/expanded_screen.dart';
 export 'package:widget_app/presentation/screen/fade_in_image/fade_in_image_screen.dart';
 export 'package:widget_app/presentation/screen/fade_transition/fade_transition_screen.dart';
