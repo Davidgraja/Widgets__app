@@ -598,5 +598,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const ToggleButtonsScreen(),
     ),
 
+    GoRoute(
+      path: '/cupertino-action-sheet',
+      builder: (context, state) => const CupertinoActionSheetScreen(),
+    ),
+
   ],
 );

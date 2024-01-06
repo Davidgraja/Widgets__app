@@ -27,6 +27,7 @@ export 'package:widget_app/presentation/screen/color_filtered/color_filtered.dar
 export 'package:widget_app/presentation/screen/constrained_box/constrained_box_screen.dart';
 export 'package:widget_app/presentation/screen/container/container_screen.dart';
 export 'package:widget_app/presentation/screen/counter/counter_screen.dart';
+export 'package:widget_app/presentation/screen/cupertino_action_sheet/cupertino_action_sheet_screen.dart';
 export 'package:widget_app/presentation/screen/custom_painter/custom_painter_screen.dart';
 export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_appbar_and_list.dart';
 export 'package:widget_app/presentation/screen/customScrollView/screens/sliver_grid.dart';

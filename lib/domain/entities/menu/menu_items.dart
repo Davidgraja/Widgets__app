@@ -467,6 +467,15 @@ const appMenuItems = <MenuItem> [
       icon: Icons.widgets_outlined
   ),
 
+
+  MenuItem(
+      title: 'CupertinoActionSheet',
+      subTitle: 'Widget muestra una hoja de acción o de alerta al usuario con dos o mas opciones segun el contexto',
+      link: '/cupertino-action-sheet',
+      icon: Icons.messenger_outline_rounded
+  ),
+
+
 ];
 
 const appBarItems = <MenuItem>[
