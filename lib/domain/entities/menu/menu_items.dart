@@ -484,9 +484,16 @@ const appMenuItems = <MenuItem> [
 
   MenuItem(
         title: 'ListWheelScrollView',
-        subTitle: 'Widged similar a ListView Widget , con la caracteristica de organizar a sus hijo como si estuvieran en un cilindo 3d  y que sus hijos deben de tener el mismo tamaño en eje de desplazamiento ',
+        subTitle: 'Widget similar a ListView Widget , con la caracteristica de organizar a sus hijo como si estuvieran en un cilindo 3d  y que sus hijos deben de tener el mismo tamaño en eje de desplazamiento ',
         link: '/list-wheel-scroll-view',
         icon: Icons.line_weight_sharp
+  ),
+
+  MenuItem(
+        title: 'ShaderMask',
+        subTitle: 'Widget que aplica una mascara de sombreado generada por un Shader a su hijo',
+        link: '/shader-mask',
+        icon: Icons.hdr_strong_rounded
   ),
 
 ];

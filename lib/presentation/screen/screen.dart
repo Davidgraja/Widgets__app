@@ -69,6 +69,7 @@ export 'package:widget_app/presentation/screen/reorderable_list_view/screens/reo
 export 'package:widget_app/presentation/screen/rich_text/rich_text_screen.dart';
 export 'package:widget_app/presentation/screen/safe_area/safe_area_screen.dart';
 export 'package:widget_app/presentation/screen/selectable_text/selectable_text_screen.dart';
+export 'package:widget_app/presentation/screen/shader_mask/shader_mask_screen.dart';
 export 'package:widget_app/presentation/screen/slider/screens/slider_one.dart';
 export 'package:widget_app/presentation/screen/slider/screens/slider_two.dart';
 export 'package:widget_app/presentation/screen/slider/slider_screen.dart';

@@ -625,5 +625,10 @@ final appRouter = GoRouter(
       ]
     ),
 
+    GoRoute(
+      path: '/shader-mask',
+      builder: (context, state) => const ShaderMaskScreen(),
+    ),
+
   ],
 );
