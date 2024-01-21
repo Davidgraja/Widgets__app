@@ -608,5 +608,22 @@ final appRouter = GoRouter(
       builder: (context, state) => const DrawerScreen(),
     ),
 
+    GoRoute(
+      path: '/list-wheel-scroll-view',
+      builder: (context, state) => const ListWheelScroolViewScreen(),
+      routes: [
+
+        GoRoute(
+          path: 'one',
+          builder: (context, state) => const ListWheelScroolViewOneScreen(),
+        ),
+        
+        GoRoute(
+          path: 'two',
+          builder: (context, state) => const ListWheelScrollViewTwoScreen(),
+        ),
+      ]
+    ),
+
   ],
 );

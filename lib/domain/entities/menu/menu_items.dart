@@ -479,9 +479,39 @@ const appMenuItems = <MenuItem> [
         subTitle: 'Widget que muestra un panel en sabor material desing que se desliza horizontal desde el borde de un Scaffold para mostrar enlaces de navegación en un aplicacción ',
         link: '/drawer',
         icon: Icons.horizontal_distribute_outlined
-    ),
+  ),
+
+
+  MenuItem(
+        title: 'ListWheelScrollView',
+        subTitle: 'Widged similar a ListView Widget , con la caracteristica de organizar a sus hijo como si estuvieran en un cilindo 3d  y que sus hijos deben de tener el mismo tamaño en eje de desplazamiento ',
+        link: '/list-wheel-scroll-view',
+        icon: Icons.line_weight_sharp
+  ),
 
 ];
+
+
+
+
+
+const listWheelScrollViewItems = <MenuItem>[
+  MenuItem(
+    title: 'ListWheelScrollView',
+    subTitle: 'Ejemplo basico de uso del widget',
+    link:'/list-wheel-scroll-view/one',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+    title: 'ListWheelScrollView horizontal',
+    subTitle: 'Ejemplo practico de como podemos usar este widget de forma horizontal , ya que por defecto solo podremos usarlo de manera vertical',
+    link:'/list-wheel-scroll-view/two',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+];
+
 
 const appBarItems = <MenuItem>[
   MenuItem(
