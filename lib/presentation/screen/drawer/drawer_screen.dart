@@ -8,7 +8,7 @@ class DrawerScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Drawer'),
+        title: const Text('Drawer'),
       ),
       body: const _DrawerBody(),
       endDrawer: const _DrawerView(),
