@@ -630,5 +630,21 @@ final appRouter = GoRouter(
       builder: (context, state) => const ShaderMaskScreen(),
     ),
 
+     GoRoute(
+      path: '/notification-listener',
+      builder: (context, state) => const NoticationListenerScreen(),
+      routes: [
+        GoRoute(
+          path: 'one',
+          builder: (context, state) => const NotificationListenerOneScreen(),
+        ),
+
+        GoRoute(
+          path: 'two',
+          builder: (context, state) => const NotificationListenerTwoScreen(),
+        ),
+      ]
+    ),
+
   ],
 );

@@ -496,10 +496,34 @@ const appMenuItems = <MenuItem> [
         icon: Icons.hdr_strong_rounded
   ),
 
+    MenuItem(
+        title: 'NotificationListener',
+        subTitle: 'Widget que escucha las notificaciones que aparecen en el arbol, como por ejemplo los widgets desplazables como un ListView envian ScrollNotification',
+        link: '/notification-listener',
+        icon: Icons.notification_add_outlined
+  ),
+
 ];
 
 
 
+
+const notificationListenerItems = <MenuItem>[
+  MenuItem(
+    title: 'NotificationListener',
+    subTitle: 'Ejemplo basico del widget',
+    link:'/notification-listener/one',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+  MenuItem(
+    title: 'NotificationListener con participación en la experiencia de usuario',
+    subTitle: 'Ejemplo practico de como podemos usar este widget participando en la experiencia de usuario',
+    link:'/notification-listener/two',
+    icon: Icons.do_not_disturb_on_total_silence_rounded
+  ),
+
+];
 
 
 const listWheelScrollViewItems = <MenuItem>[
