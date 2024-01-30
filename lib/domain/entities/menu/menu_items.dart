@@ -496,11 +496,18 @@ const appMenuItems = <MenuItem> [
         icon: Icons.hdr_strong_rounded
   ),
 
-    MenuItem(
+  MenuItem(
         title: 'NotificationListener',
         subTitle: 'Widget que escucha las notificaciones que aparecen en el arbol, como por ejemplo los widgets desplazables como un ListView envian ScrollNotification',
         link: '/notification-listener',
         icon: Icons.notification_add_outlined
+  ),
+
+  MenuItem(
+      title: 'Builder',
+      subTitle: 'Widget que te proporciona un contexto de contrucción actualizado',
+      link: '/builder',
+      icon: Icons.build_circle_outlined
   ),
 
 ];

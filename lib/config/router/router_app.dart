@@ -646,5 +646,11 @@ final appRouter = GoRouter(
       ]
     ),
 
+
+    GoRoute(
+      path: '/builder',
+      builder: (context, state) => const BuilderScreen(),
+    ),
+
   ],
 );
