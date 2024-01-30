@@ -1,3 +1,4 @@
+export 'package:widget_app/presentation/screen/ignore_pointer/ignore_pointer_screen.dart';
 export 'package:widget_app/presentation/screen/builder/builder_screen.dart';
 export 'package:widget_app/presentation/screen/absorb_pointer/absorb_pointer_screen.dart';
 export 'package:widget_app/presentation/screen/alert_dialog/alert_dialog.dart';

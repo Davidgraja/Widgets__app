@@ -652,5 +652,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const BuilderScreen(),
     ),
 
+    GoRoute(
+      path: '/ignore-pointer',
+      builder: (context, state) => const IgnorePointerScreen(),
+    ),
+
   ],
 );

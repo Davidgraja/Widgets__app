@@ -510,6 +510,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.build_circle_outlined
   ),
 
+  MenuItem(
+      title: 'IgnorePointer',
+      subTitle: 'si su propiedad ignoring  es true , su arbol de widgets  no pueden ser objetivo de eventos , como tocar , hacer click , arrastrar , desplazarse , etc',
+      link: '/ignore-pointer',
+      icon: Icons.ads_click_rounded
+  ),
+
 ];
 
 
