@@ -657,5 +657,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const IgnorePointerScreen(),
     ),
 
+    GoRoute(
+      path: '/cupertino-indicator',
+      builder: (context, state) => const CupertinoActivityIndicatorScreen(),
+    ),
+
   ],
 );

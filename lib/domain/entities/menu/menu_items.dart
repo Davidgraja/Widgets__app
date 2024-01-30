@@ -517,6 +517,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.ads_click_rounded
   ),
 
+  MenuItem(
+      title: 'CupertinoActivityIndicator',
+      subTitle: 'Un indicador de actividad  al estilo ios , que gira al sentido de las agujas del reloj , es la contra parte del CircularProgressIndicator en material',
+      link: '/cupertino-indicator',
+      icon: Icons.ads_click_rounded
+  ),
+
 ];
 
 
