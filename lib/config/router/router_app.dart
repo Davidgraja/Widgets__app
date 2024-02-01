@@ -662,5 +662,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const CupertinoActivityIndicatorScreen(),
     ),
 
+    GoRoute(
+      path: '/checkbox-list-tile',
+      builder: (context, state) => const CheckboxListTileScreen(),
+    ),
+
   ],
 );

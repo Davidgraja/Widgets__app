@@ -524,6 +524,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.ads_click_rounded
   ),
 
+  MenuItem(
+      title: 'CheckboxListTile',
+      subTitle: 'Widget que une un ListTile junto a Checkbox , en pocas palabras es una casilla de verificación con una etiqueta',
+      link: '/checkbox-list-tile',
+      icon: Icons.check_box
+  ),
+
 ];
 
 
