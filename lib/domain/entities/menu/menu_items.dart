@@ -531,6 +531,14 @@ const appMenuItems = <MenuItem> [
       icon: Icons.check_box
   ),
 
+  MenuItem(
+      title: 'package - url_launcher',
+      subTitle: 'paquete que te permite enviar a los usuarios a URLS externas , por ejemplo a una web , al correo electronico , a la pantalla de llamar.',
+      link: '/package-url-launcher',
+      icon: Icons.backpack
+  ),
+
+
 ];
 
 

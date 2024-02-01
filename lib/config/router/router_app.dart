@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:widget_app/presentation/packages/packages.dart';
 
 import 'package:widget_app/presentation/screen/app_bar/screens/screens.dart';
 import 'package:widget_app/presentation/screen/data_table/data_table_screen.dart';
@@ -665,6 +666,11 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/checkbox-list-tile',
       builder: (context, state) => const CheckboxListTileScreen(),
+    ),
+
+    GoRoute(
+      path: '/package-url-launcher',
+      builder: (context, state) => const UrlLauncherScreen(),
     ),
 
   ],
