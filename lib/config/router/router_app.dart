@@ -674,6 +674,11 @@ final appRouter = GoRouter(
     ),
 
     GoRoute(
+      path: '/package-location',
+      builder: (context, state) => const LocationPackageScreen(),
+    ),
+
+    GoRoute(
       path: '/interactive-viewer',
       builder: (context, state) => const InteractiveViewerScreen(),
     ),

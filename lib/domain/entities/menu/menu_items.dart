@@ -532,14 +532,6 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
-      title: 'package - url_launcher',
-      subTitle: 'paquete que te permite enviar a los usuarios a URLS externas , por ejemplo a una web , al correo electronico , a la pantalla de llamar.',
-      link: '/package-url-launcher',
-      icon: Icons.backpack
-  ),
-
-
-  MenuItem(
       title: 'InteractiveViewer',
       subTitle: 'Widget que te habilita la funcionalidad e interacciones de panoramica y  de zoom con su hijo, con este widget el usuario podra arrastrar o pellizcar para realizar zoom , ademas de otras propiedades',
       link: '/interactive-viewer',
@@ -553,7 +545,19 @@ const appMenuItems = <MenuItem> [
       icon: Icons.grid_4x4_rounded
   ),
 
+  MenuItem(
+      title: 'package - url_launcher',
+      subTitle: 'paquete que te permite enviar a los usuarios a URLS externas , por ejemplo a una web , al correo electronico , a la pantalla de llamar.',
+      link: '/package-url-launcher',
+      icon: Icons.backpack
+  ),
 
+  MenuItem(
+      title: 'package - location',
+      subTitle: 'paquete que te permite optener la locacíon actual del usuario',
+      link: '/package-location',
+      icon: Icons.backpack
+  ),
 
 ];
 
