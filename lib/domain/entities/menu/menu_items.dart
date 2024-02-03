@@ -546,6 +546,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.zoom_in_map_rounded
   ),
 
+  MenuItem(
+      title: 'GridView',
+      subTitle: 'Widget que permite crear una cuadricula con sus hijos',
+      link: '/grid-view',
+      icon: Icons.grid_4x4_rounded
+  ),
+
 
 
 ];

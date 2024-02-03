@@ -673,10 +673,14 @@ final appRouter = GoRouter(
       builder: (context, state) => const UrlLauncherScreen(),
     ),
 
-
     GoRoute(
       path: '/interactive-viewer',
       builder: (context, state) => const InteractiveViewerScreen(),
+    ),
+
+    GoRoute(
+      path: '/grid-view',
+      builder: (context, state) => const GridViewScreen(),
     ),
 
   ],

@@ -1,3 +1,5 @@
+
+export 'package:widget_app/presentation/screen/grid_view/grid_view_screen.dart';
 export 'package:widget_app/presentation/screen/absorb_pointer/absorb_pointer_screen.dart';
 export 'package:widget_app/presentation/screen/alert_dialog/alert_dialog.dart';
 export 'package:widget_app/presentation/screen/alert_dialog/screens/alert_dialog_screen.dart';
