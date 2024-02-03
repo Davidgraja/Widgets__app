@@ -41,7 +41,7 @@ class _UrlLauncherView extends StatelessWidget {
     final Uri urlTel = Uri.parse('tel:603391921');
 
     /// sms urls
-    final Uri _urlSms = Uri.parse('sms:603391921');
+    // final Uri _urlSms = Uri.parse('sms:603391921');
 
     // sms with message
     final smsLaunchUrl = Uri(
@@ -63,7 +63,7 @@ class _UrlLauncherView extends StatelessWidget {
       }),
     );
 
-     final emailLaunchUrl =  Uri.parse('mailto:davidgraja09@gmail.com?subject=Flutter url luancher&body=Hi, Flutter developer ');
+    //  final emailLaunchUrl =  Uri.parse('mailto:davidgraja09@gmail.com?subject=Flutter url luancher&body=Hi, Flutter developer ');
 
 
     return Center(
