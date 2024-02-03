@@ -539,9 +539,18 @@ const appMenuItems = <MenuItem> [
   ),
 
 
+  MenuItem(
+      title: 'InteractiveViewer',
+      subTitle: 'Widget que te habilita la funcionalidad e interacciones de panoramica y  de zoom con su hijo, con este widget el usuario podra arrastrar o pellizcar para realizar zoom , ademas de otras propiedades',
+      link: '/interactive-viewer',
+      icon: Icons.zoom_in_map_rounded
+  ),
+
+
+
 ];
 
-
+ 
 
 
 const notificationListenerItems = <MenuItem>[
