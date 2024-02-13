@@ -694,5 +694,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const GridViewScreen(),
     ),
 
+    GoRoute(
+      path: '/physical-model',
+      builder: (context, state) => const PhysicalModelScreen(),
+    ),
+
+
   ],
 );

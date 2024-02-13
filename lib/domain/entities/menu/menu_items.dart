@@ -545,6 +545,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.grid_4x4_rounded
   ),
 
+   MenuItem(
+      title: 'PhysicalModel',
+      subTitle: 'Widget muy util a la hora de crear  efectos de sombras personalizados a su  widget hijo ',
+      link: '/physical-model',
+      icon: Icons.shop_two_rounded
+  ),
+
   MenuItem(
       title: 'package - url_launcher',
       subTitle: 'paquete que te permite enviar a los usuarios a URLS externas , por ejemplo a una web , al correo electronico , a la pantalla de llamar.',
