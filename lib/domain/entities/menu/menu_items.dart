@@ -559,6 +559,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.backpack
   ),
 
+  MenuItem(
+      title: 'package - device_info',
+      subTitle: 'paquete que te permite obtener mas información sobre el dispositivo en que se esta ejecutando la app',
+      link: '/package-device-info',
+      icon: Icons.backpack
+  ),
+
 ];
 
  

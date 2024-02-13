@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:widget_app/presentation/packages/device_info/device_info_screen.dart';
 import 'package:widget_app/presentation/packages/packages.dart';
 
 import 'package:widget_app/presentation/screen/app_bar/screens/screens.dart';
@@ -671,6 +672,11 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/package-url-launcher',
       builder: (context, state) => const UrlLauncherScreen(),
+    ),
+
+    GoRoute(
+      path: '/package-device-info',
+      builder: (context, state) => const DeviceInfoPackage(),
     ),
 
     GoRoute(
