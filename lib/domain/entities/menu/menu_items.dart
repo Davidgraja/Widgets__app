@@ -573,6 +573,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.backpack
   ),
 
+  MenuItem(
+      title: 'package - flutter_slidable',
+      subTitle: 'paquete que te permite darle a su hijo una lista de acciones deslizables , tambien es posible hacer acciones de descarte sobre el elemento',
+      link: '/package-flutter-slidable',
+      icon: Icons.backpack
+  ),
+
 ];
 
  
