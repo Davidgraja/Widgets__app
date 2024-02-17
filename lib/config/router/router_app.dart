@@ -706,6 +706,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const RotatedBoxScreen(),
     ),
 
+    GoRoute(
+      path: '/expansion-panel',
+      builder: (context, state) => const ExpansionPanelScreen(),
+    ),
 
   ],
 );

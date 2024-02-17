@@ -560,6 +560,13 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
+      title: 'ExpansionPanel',
+      subTitle: 'Widget que tiene un cuerpo y header los cuales pueden ser expandidos y colapsados , el cuerpo del panel solo podra ser visible cuando el widget este expandido',
+      link: '/expansion-panel',
+      icon: Icons.expand
+  ),
+
+  MenuItem(
       title: 'package - url_launcher',
       subTitle: 'paquete que te permite enviar a los usuarios a URLS externas , por ejemplo a una web , al correo electronico , a la pantalla de llamar.',
       link: '/package-url-launcher',

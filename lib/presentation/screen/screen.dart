@@ -39,6 +39,7 @@ export 'package:widget_app/presentation/screen/dismissible/dismissible_screen.da
 export 'package:widget_app/presentation/screen/draggable_scrollable_Sheet/draggable_scrollable_sheet.dart';
 export 'package:widget_app/presentation/screen/drawer/drawer_screen.dart';
 export 'package:widget_app/presentation/screen/expanded/expanded_screen.dart';
+export 'package:widget_app/presentation/screen/expansion_panel/expansion_panel_screen.dart';
 export 'package:widget_app/presentation/screen/fade_in_image/fade_in_image_screen.dart';
 export 'package:widget_app/presentation/screen/fade_transition/fade_transition_screen.dart';
 export 'package:widget_app/presentation/screen/fittedBox/fitted_box_screen.dart';
