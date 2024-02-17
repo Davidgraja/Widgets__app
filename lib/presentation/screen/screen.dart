@@ -78,6 +78,7 @@ export 'package:widget_app/presentation/screen/reorderable_list_view/reorderable
 export 'package:widget_app/presentation/screen/reorderable_list_view/screens/reorderable_list_one_screen.dart';
 export 'package:widget_app/presentation/screen/reorderable_list_view/screens/reorderable_list_two_screen.dart';
 export 'package:widget_app/presentation/screen/rich_text/rich_text_screen.dart';
+export 'package:widget_app/presentation/screen/rotated_box/rotated_box_screen.dart';
 export 'package:widget_app/presentation/screen/safe_area/safe_area_screen.dart';
 export 'package:widget_app/presentation/screen/selectable_text/selectable_text_screen.dart';
 export 'package:widget_app/presentation/screen/shader_mask/shader_mask_screen.dart';

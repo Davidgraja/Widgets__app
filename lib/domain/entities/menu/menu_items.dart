@@ -553,6 +553,13 @@ const appMenuItems = <MenuItem> [
   ),
 
   MenuItem(
+      title: 'RotatedBox',
+      subTitle: 'Widget que rota o gira su hjo por un numero integral de cuartos de vueltas, se tiende a comparar con Transform , pero la diferencia es que RotatedBox rota completamente su hijo , cambiando su tamaño y haciendo que se adapate ala UI',
+      link: '/rotated-box',
+      icon: Icons.rotate_90_degrees_ccw_outlined
+  ),
+
+  MenuItem(
       title: 'package - url_launcher',
       subTitle: 'paquete que te permite enviar a los usuarios a URLS externas , por ejemplo a una web , al correo electronico , a la pantalla de llamar.',
       link: '/package-url-launcher',

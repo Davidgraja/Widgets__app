@@ -701,6 +701,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const PhysicalModelScreen(),
     ),
 
+    GoRoute(
+      path: '/rotated-box',
+      builder: (context, state) => const RotatedBoxScreen(),
+    ),
+
 
   ],
 );
