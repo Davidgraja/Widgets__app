@@ -691,6 +691,11 @@ final appRouter = GoRouter(
       builder: (context, state) => const ConectivityPlusScreen() ,
     ),
 
+     GoRoute(
+      path: '/package-animated-text-kit',
+      builder: (context, state) => const AnimatedTextKitScreen() ,
+    ),
+
     GoRoute(
       path: '/interactive-viewer',
       builder: (context, state) => const InteractiveViewerScreen(),

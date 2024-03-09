@@ -601,6 +601,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.backpack
   ),
 
+  MenuItem(
+      title: 'package - animated_text_kit',
+      subTitle: 'paquete que te permite realizart animaciones sobre textos',
+      link: '/package-animated-text-kit',
+      icon: Icons.backpack
+  ),
+
 ];
 
  
