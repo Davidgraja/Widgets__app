@@ -687,6 +687,11 @@ final appRouter = GoRouter(
     ),
 
     GoRoute(
+      path: '/package-conectivity-plus',
+      builder: (context, state) => const ConectivityPlusScreen() ,
+    ),
+
+    GoRoute(
       path: '/interactive-viewer',
       builder: (context, state) => const InteractiveViewerScreen(),
     ),

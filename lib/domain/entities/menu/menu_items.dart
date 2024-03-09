@@ -594,6 +594,13 @@ const appMenuItems = <MenuItem> [
       icon: Icons.backpack
   ),
 
+  MenuItem(
+      title: 'package - conectivity_plus',
+      subTitle: 'paquete que te permite descubrir que tipo de conexión tiene el usuario , wifi , red , ethernet o ninguna ',
+      link: '/package-conectivity-plus',
+      icon: Icons.backpack
+  ),
+
 ];
 
  
